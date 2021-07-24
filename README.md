@@ -1,7 +1,7 @@
 # Ambot
 #Ambot
 <div align="center">
-  <img border-radius: 16px src="https://github.com/PYMaster-ft/Akina/blob/f766c8c14f65cf87c24c5babf9ac462e242bea6a/media/gif/akina.jpeg" width="100" height="100"/>
+  <img border-radius: 16px src="https://telegra.ph/file/0860909d858d38bc09be3.jpg" width="100" height="100"/>
   <p align="center">
 <a href="#"><img title="Ambot" src="https://img.shields.io/badge/Akina-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
 </p>
