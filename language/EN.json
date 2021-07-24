@@ -5,16 +5,16 @@
     "AUTHOR": "AsenaDev",
     "STRINGS": {
         "_asena": {
-            "COMMAND": "Command",
-            "DESC": "Description",
-            "EXAMPLE": "Example",
-            "NOT_FOUND": "*I couldnt find a command like this*",
-            "WARN": "Warn"
+            "COMMAND": "විධානය",
+            "DESC": "විස්තර",
+            "EXAMPLE": "උදාහරණයක්",
+            "NOT_FOUND": "*මට මේ වගේ විධානයක් සොයාගත නොහැකි විය*",
+            "WARN": "අවවාදයයි"
         },
         "_plugin": {
             "INSTALL_DESC": "Install external plugins.",
             "NEED_URL": "Please enter a URL! Example:",
-            "UNOFF": "⚠️ *Attention!* \n*The plugin you have installed is not official!*",
+            "UNOFF": "⚠️ *Attention!* \n*The plugin you have installed is official!*",
             "INVALID_URL": "```Please enter a valid url!```",
             "INVALID_PLUGIN": "*❌ Your plugin is invalid!*\n*Error:*",
             "INSTALLED": "*✅ Plugin has been successfully installed!*",
@@ -25,7 +25,7 @@
             "NEED_PLUGIN": "```Please enter a Plugin! Example: .plugin __test```",
             "NOT_FOUND_PLUGIN": "```Maybe you have installed such a plugin, or maybe not. But it sure isn't right now.```",
             "DELETED": "*✅ Module successfully deleted!*",
-            "WARN": "Get plugins only from t.me/remasterplugin channel."
+            "WARN": "Get plugins only from https://chat.whatsapp.com/Bif5my0K0jhL2gI7gczGo2 Group."
         },
         "admin": {
             "BAN_DESC": "කණ්ඩායමේ කෙනෙකු ඉවත් කරන්න. පණිවිඩයට පිළිතුරු දෙන්න හෝ විධානය භාවිතා කිරීමට පුද්ගලයෙකු ටැග් කරන්න.",
