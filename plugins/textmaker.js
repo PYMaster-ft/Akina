@@ -164,7 +164,7 @@ Asena.addCommand({pattern: 'textmaker$', fromMe: wk, desc: desc_msg}, (async (me
     await message.client.sendMessage(message.jid,msg, MessageType.text, { quoted: message.data })
 }));
 Asena.addCommand({pattern: 'textdevil ?(.*)', fromMe: wk, dontAddCommandList: true}, (async (message, match) => {
-    thiccysapi.textpro("https://textpro.me/create-neon-devil-wings-text-effect-online-free-1014.html",
+    thiccysapi.textpro("https://textpro.me/online-thunder-text-effect-generator-1031.html",
         `${match[1]}`
         ).then(async (data) => { 
           try { 
