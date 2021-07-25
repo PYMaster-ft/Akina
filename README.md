@@ -1,5 +1,5 @@
-# Ambot
-#Ambot
+# Akina
+#Akina
 <div align="center">
   <img border-radius: 16px src="https://telegra.ph/file/0860909d858d38bc09be3.jpg" width="100" height="100"/>
   <p align="center">
