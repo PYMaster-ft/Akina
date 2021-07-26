@@ -388,7 +388,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                     );
                     await conn.sendMessage(
                         conn.user.jid,
-                        '```යාවත්කාලීන කිරීමට``` *.update now* ```යොදන්න .```\n\n' + degisiklikler + '```', MessageType.text
+                        '```යාවත්කාලීන කිරීමට``` *.up now* ```යොදන්න .```\n\n' + degisiklikler + '```', MessageType.text
                     ); 
                 }
             }
@@ -443,7 +443,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                     );
                     await conn.sendMessage(
                         conn.user.jid,
-                        '```යාවත්කාලීන කිරීමට``` *.update now* ```යොදන්න.```\n\n' + degisiklikler + '```', MessageType.text
+                        '```යාවත්කාලීන කිරීමට``` *.up now* ```යොදන්න.```\n\n' + degisiklikler + '```', MessageType.text
                     ); 
                 }
             }
