@@ -415,7 +415,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
         
                     await conn.sendMessage(
                         conn.user.jid,
-                        '```Type``` *.update now* ```For Update The Bot.```\n\n' + degisiklikler + '```', MessageType.text
+                        '```Type``` *.up now* ```For Update The Bot.```\n\n' + degisiklikler + '```', MessageType.text
                     ); 
                 }
             }
