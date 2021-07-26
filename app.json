@@ -1,7 +1,7 @@
 {
     "name": "Akina",
-    "description": "Akina project - Makes it easy and fun to use Whatsapp. World’s first UserBot made for WhatsApp.",
-    "logo": "https://telegra.ph/file/24697f646764d7f3a7b55.jpg",
+    "description": "PYmaster - Whatsapp Bot",
+    "logo": "https://i.imgur.com/rnAKmbV.jpg",
     "keywords": ["whatsapp", "userbot", "Asena", "WhatsAsena", "bot", "api", "ai"],
     "repository": "https://github.com/PYMaster-ft/Akina",
     "website":   "https://t.me/phaticusthiccy",
@@ -17,17 +17,27 @@
             "required": false
         },
         "LANGUAGE": {
-            "description": "Bot language. Azerice => az, English => en, Türkçe => tr, Malayalam => ml, Hindi => HI, Indonesia => ID, Español => ES, Portuguese => pt, Russian => ru",
+            "description": "Bot භාෂාව.සිංහල භාෂාව සඳහා En ලෙස සඳහන් කරන්න",
             "required": true,
             "value": "en"
         },
+        "BGM_FILTER": {
+            "description": "If you likes bgm you can write 'true'. Otherwise false",
+            "required": false,
+            "value": "true"
+        },
+        "AUTO_STICKER": {
+            "description": "If you likes bgm you can write 'true'. Otherwise false",
+            "required": false,
+            "value": "true"
+        },
         "ANTİ_LİNK": {
-            "description": "Link Engelleme Sistemi. Link Blocking System.",
+            "description": "Link block කිරීමට අවශ්‍යනම් true ලෙස type කරන්න.නැත්තන් එසේම තියන්න.",
             "required": true,
             "value": "false"
         },
         "AUTO_BİO": {
-            "description": "Duruma otomatik tarih ve zaman eklemek için true yapın. Set true for auto date, time in biography.",
+            "description": "දිනය සහ වේලාව ස්වයංක්‍රීයව තත්වයට එක් කිරීමට true ලෙස සකසන්න.අවශ්‍ය නැතිනම් එසේම තියන්න.",
             "required": true,
             "value": "false"
         },
@@ -42,7 +52,7 @@
             "value": "false"
         },
         "NO_LOG": {
-            "description": "Hata logu görmek istemiyorsanız true yapın. Set true if you don't want to see error log.",
+            "description": "ඔබට කිසියම් දෝෂ log සටහනක් දැකීමට අවශ්‍ය නැතිනම් true ලෙස සකසන්න. ඔබට දෝෂ ලොගය දැකීමට අවශ්‍ය නැතිනම් false ලෙස සකසන්න.",
             "required": true,
             "value": "false"
         },
@@ -52,7 +62,7 @@
             "value": "true"
         },
         "HEROKU": {
-            "description": "Heroku.",
+            "description": "මෙය වෙනස් නොකරන්න.",
             "required": true,
             "value": "true"
         },
@@ -66,7 +76,7 @@
             "value": "default"
         },
         "BLOCK_CHAT": {
-            "description": "Choose in which chat the bot won't work there. Ex: 905xxxx && 905xxxx-1xxx or 905xxxx,905xxx...",
+            "description": "බොට් වැඩ නොකරන චැට් එක තෝරන්න. Ex: 947xxxxxxxx && 947xxxxxxxx හෝ 947xxxxxxxx,947xxxxxxxx...",
             "required": false,
             "value": "false"
         },
@@ -88,10 +98,10 @@
         "WORK_TYPE": {
             "description": "Bot වැඩ කරන ක්රමය. ඔබ “public” භාවිතා කරන්නේ නම්, සෑම කෙනෙකුටම bot භාවිතා කළ හැකිය. ඔබ “private” භාවිතා කරන්නේ නම්, ඔබේ bot භාවිතා කළ හැක්කේ ඔබට පමණි.",
             "required": true,
-            "value": "private"
+            "value": "public"
         },
         "HEROKU_APP_NAME": {
-            "description": "ඉහත App name එකම යොදන්න.",
+            "description": "ඔබ ඉහතින් දුන්න app name එක නැවත වරක් මෙතන type කරන්න.",
             "required": true
         },
         "DEBUG": {
@@ -106,7 +116,7 @@
         "ALIVE_MESSAGE": {
             "description": "Bot online ද නැද්ද යන්න පරීක්ෂා කරන විට ලැබෙන මැසේජ් එක. මෙය වෙනස් කිරිමට අත්‍යාවශ්‍යම නොවේ.",
             "required": false,
-            "value": "Hi Im Akina"
+            "value": "\n ```I Am Alive !!!```\n\n```Type``` *.help* ```for commands```"
         },
         "BAN_MESSAGE": {
             "description": "යම් කෙනෙකු ඔබ .ban ලෙස කොමාන්ඩ් කර remove කලවිට ලැබෙන message එක. ඔබට මෙම පණිවිඩය වෙනස් කිරීමට අවශ්‍ය නැතිනම් default ටයිප් කරන්න.",
@@ -114,7 +124,7 @@
             "value": "default"
         },
         "ADD_MESSAGE": {
-            "description": "ඔබට මෙම පණිවිඩය වෙනස් කිරීමට අවශ්‍ය නැතිනම් default ටයිප් කරන්න..",
+            "description": "ඔබට මෙම පණිවිඩය වෙනස් කිරීමට අවශ්‍ය නැතිනම් default ටයිප් කරන්න.",
             "required": false,
             "value": "default"
         },
@@ -139,7 +149,7 @@
             "value": "default"
         },
         "GAN_IMAGE": {
-            "description": "Write image link for Gan Style plugin. Type image link for Gan Style plugin.",
+            "description": "ඔබ කැමති image එකක link එකක් මෙතනින් paste කරන්න.නැත්තන් මෙසේ තියන්න.",
             "required": true,
             "value": "https://i.hizliresim.com/loUtAb.jpg"
         },
