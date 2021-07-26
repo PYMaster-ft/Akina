@@ -185,12 +185,12 @@
             "SONG_DESC": "Uploads the song you wrote.",
             "NEED_TEXT_SONG": "*Please write a song!*\n*Example:* ```.song eminem - rap god```",
             "NO_RESULT": "*I couldn't find anything :(*",
-            "DOWNLOADING_SONG": "\n*Akina:* Searching Your Song\n",
-            "UPLOADING_SONG": "\n*Feel the song*\n",
+            "DOWNLOADING_SONG": "*Akina:* 🧕 ```Searching Your Song..```",
+            "UPLOADING_SONG": "*Akina:* ```Uploading your song...```",
             "VIDEO_DESC": "Downloads video from YouTube.",
             "NEED_VIDEO": "*Please write a video link!*\n*Example:* ```.video https://www.youtube.com/watch?v=nAFlVm5qeBc```",
-            "DOWNLOADING_VIDEO": "*Downloading*",
-            "UPLOADING_VIDEO": "*Uploading*",
+            "DOWNLOADING_VIDEO": "*Akina:* 🧕 ```Downloding Your video..```",
+            "UPLOADING_VIDEO": "*Akina:* ```Uploading your video...```",
             "YT_DESC": "It searchs on YouTube.",
             "NEED_WORDS": "```Please write a few words!```",
             "GETTING_VIDEOS": "```I'm bringing videos...```",
@@ -203,7 +203,7 @@
         "sticker": {
             "STICKER_DESC": "It converts your replied photo or video to sticker.",
             "NEED_REPLY": "*Reply to a photo or video!*",
-            "DOWNLOADING": "```Nissaram🧞‍♂️```"
+            "DOWNLOADING": "```Creating your sticker🧞‍♂️```"
         },
         "system_stats": {
             "ALIVE_DESC": "Does bot work?",
