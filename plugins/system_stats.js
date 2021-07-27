@@ -24,7 +24,7 @@ if (Config.WORKTYPE == 'private') {
             
             var image = await axios.get (Config.ALIVE_LOGO, {responseType: 'arraybuffer'})
        
-        await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: "👸🏻 *Hi Im Akina* 👸🏻\n\n✓ *Version:* ```1.0 Public Stable```\n✓ *Branch:* ```master```\n✓ *Developer:* ```SYSTEM SOMBIES```\n✓ *Main Bot :* https://wa.link/snz5lj\n✓ *Github Profile :* https://github.com/Randix-kane\n✓ *Email :* systemzombiesx@gmail.com\nn✓ *Stack :* https://cutt.ly/XmgUT8z\n\n```Thank You For Using AKina 🐺 💞```"})
+        await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: "👸🏻 *Hi Im Akina* 👸🏻\n\n✓ *Version:* ```1.0 Public Stable```\n✓ *Branch:* ```master```\n✓ *Developer:* ```SYSTEM SOMBIES```\n✓ *Main Bot :* https://wa.link/snz5lj\n✓ *Github Profile :* https://github.com/Randix-kane\n✓ *Email :* systemzombiesx@gmail.com\n✓ *Stack :* https://cutt.ly/XmgUT8z\n\n```Thank You For Using AKina 🐺 💞```"})
 
     }
     else {
@@ -56,7 +56,7 @@ else if (Config.WORKTYPE == 'public') {
             
             var image = await axios.get (Config.ALIVE_LOGO, {responseType: 'arraybuffer'})
        
-        await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: "👸🏻 *Hi Im Akina* 👸🏻\n\n✓ *Version:* ```1.0 Public Stable```\n✓ *Branch:* ```master```\n✓ *Developer:* ```SYSTEM SOMBIES```\n✓ *Main Bot :* https://wa.link/snz5lj\n✓ *Github Profile :* https://github.com/Randix-kane\n✓ *Email :* systemzombiesx@gmail.com\nn✓ *Stack :* https://cutt.ly/XmgUT8z\n\n```Thank You For Using AKina 🐺 💞```"})
+        await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: "👸🏻 *Hi Im Akina* 👸🏻\n\n✓ *Version:* ```1.0 Public Stable```\n✓ *Branch:* ```master```\n✓ *Developer:* ```SYSTEM SOMBIES```\n✓ *Main Bot :* https://wa.link/snz5lj\n✓ *Github Profile :* https://github.com/Randix-kane\n✓ *Email :* systemzombiesx@gmail.com\n✓ *Stack :* https://cutt.ly/XmgUT8z\n\n```Thank You For Using AKina 🐺 💞```"})
 
     }
     else {
