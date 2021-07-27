@@ -1,4 +1,4 @@
-/* # Exclusively from DAta lover
+/* # Exclusively from  AKINA
 */
 
 const Asena = require('../events');
@@ -16,7 +16,7 @@ if (Config.WORKTYPE == 'private') {
 
         var ttinullimage = await axios.get(`https://api.zeks.xyz/api/text3dbox?apikey=cjxJIn9eDletRHac3CG6CdvGxFH&text=${encodeURIComponent(match[1])}`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*Made by ◇─◇◇────◇─ ✿  Akina  ✿═─◄█▓▒░*' })
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '🌹 *Made By Akina* 🦚' })
 
     }));
 }
@@ -29,7 +29,7 @@ else if (Config.WORKTYPE == 'public') {
 
         var ttinullimage = await axios.get(`https://api.zeks.xyz/api/text3dbox?apikey=cjxJIn9eDletRHac3CG6CdvGxFH&text=${encodeURIComponent(match[1])}`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*Made by ◇─◇◇────◇─ ✿  Akina  ✿═─◄█▓▒░*' })
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '🌹 *Made By Akina* 🦚' })
 
     }));
     
@@ -43,7 +43,7 @@ if (Config.WORKTYPE == 'private') {
 
         var ttinullimage = await axios.get(`https://videfikri.com/api/textmaker/8bit/?text1=SL&text2=${encodeURIComponent(match[1])}`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*Made by ◇─◇◇────◇─ ✿  Akina  ✿═─◄█▓▒░*' })
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '🌹 *Made By Akina* 🦚' })
 
     }));
 }
@@ -56,7 +56,7 @@ else if (Config.WORKTYPE == 'public') {
 
         var ttinullimage = await axios.get(`https://videfikri.com/api/textmaker/8bit/?text1=SL&text2=${encodeURIComponent(match[1])}`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*Made by ◇─◇◇────◇─ ✿  Akina  ✿═─◄█▓▒░*' })
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '🌹 *Made By Akina* 🦚' })
 
     }));
     
@@ -71,7 +71,7 @@ if (Config.WORKTYPE == 'private') {
 
         var ttinullimage = await axios.get(`https://api.xteam.xyz/photooxy/avatarlol?text=${encodeURIComponent(match[1])}&APIKEY=7d9712378e88936a`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*Made by ◇─◇◇────◇─ ✿  Akina  ✿═─◄█▓▒░*' })
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '🌹 *Made By Akina* 🦚' })
 
     }));
 }
@@ -84,7 +84,7 @@ else if (Config.WORKTYPE == 'public') {
 
         var ttinullimage = await axios.get(`https://api.xteam.xyz/photooxy/avatarlol?text=${encodeURIComponent(match[1])}&APIKEY=7d9712378e88936a`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*Made by ◇─◇◇────◇─ ✿  Akina  ✿═─◄█▓▒░*' })
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '🌹 *Made By Akina* 🦚' })
 
     }));
     
@@ -99,7 +99,7 @@ if (Config.WORKTYPE == 'private') {
 
         var ttinullimage = await axios.get(`https://lolhuman.herokuapp.com/api/ephoto1/anonymhacker?apikey=990580a2e31add15990665b0&text=${encodeURIComponent(match[1])}`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*Made by ◇─◇◇────◇─ ✿  Akina  ✿═─◄█▓▒░*' })
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '🌹 *Made By Akina* 🦚' })
 
     }));
 }
@@ -112,7 +112,7 @@ else if (Config.WORKTYPE == 'public') {
 
         var ttinullimage = await axios.get(`https://lolhuman.herokuapp.com/api/ephoto1/anonymhacker?apikey=990580a2e31add15990665b0&text=${encodeURIComponent(match[1])}`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*Made by ◇─◇◇────◇─ ✿  Akina  ✿═─◄█▓▒░*' })
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '🌹 *Made By Akina* 🦚' })
 
     }));
     
@@ -128,7 +128,7 @@ if (Config.WORKTYPE == 'private') {
 
         var ttinullimage = await axios.get(`https://api.zeks.xyz/api/logoaveng?apikey=cjxJIn9eDletRHac3CG6CdvGxFH&text1=MARVEL&text2=${encodeURIComponent(match[1])}`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*Made by ◇─◇◇────◇─ ✿  Akina  ✿═─◄█▓▒░*' })
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '🌹 *Made By Akina* 🦚' })
 
     }));
 }
@@ -141,7 +141,7 @@ else if (Config.WORKTYPE == 'public') {
 
         var ttinullimage = await axios.get(`https://api.zeks.xyz/api/logoaveng?apikey=cjxJIn9eDletRHac3CG6CdvGxFH&text1=MARVEL&text2=${encodeURIComponent(match[1])}`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*Made by ◇─◇◇────◇─ ✿  Akina  ✿═─◄█▓▒░*' })
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '🌹 *Made By Akina* 🦚' })
 
     }));
     
@@ -156,7 +156,7 @@ if (Config.WORKTYPE == 'private') {
 
         var ttinullimage = await axios.get(`https://api.zeks.xyz/api/bneon?apikey=cjxJIn9eDletRHac3CG6CdvGxFH&text=${encodeURIComponent(match[1])}`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*Made by ◇─◇◇────◇─ ✿  Akina  ✿═─◄█▓▒░*' })
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '🌹 *Made By Akina* 🦚' })
 
     }));
 }
@@ -169,7 +169,7 @@ else if (Config.WORKTYPE == 'public') {
 
         var ttinullimage = await axios.get(`https://api.zeks.xyz/api/bneon?apikey=cjxJIn9eDletRHac3CG6CdvGxFH&text=${encodeURIComponent(match[1])}`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*Made by ◇─◇◇────◇─ ✿  Akina  ✿═─◄█▓▒░*' })
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '🌹 *Made By Akina* 🦚' })
 
     }));
     
@@ -184,7 +184,7 @@ if (Config.WORKTYPE == 'private') {
 
         var ttinullimage = await axios.get(`https://lolhuman.herokuapp.com/api/textprome/bokeh?apikey=f03ace0b7aae88a934af0216&text=${encodeURIComponent(match[1])}`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*Made by ◇─◇◇────◇─ ✿  Akina  ✿═─◄█▓▒░*' })
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '🌹 *Made By Akina* 🦚' })
 
     }));
 }
@@ -197,7 +197,7 @@ else if (Config.WORKTYPE == 'public') {
 
         var ttinullimage = await axios.get(`https://lolhuman.herokuapp.com/api/textprome/bokeh?apikey=f03ace0b7aae88a934af0216&text=${encodeURIComponent(match[1])}`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*Made by ◇─◇◇────◇─ ✿  Akina  ✿═─◄█▓▒░*' })
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '🌹 *Made By Akina* 🦚' })
 
     }));
     
@@ -213,7 +213,7 @@ if (Config.WORKTYPE == 'private') {
 
         var ttinullimage = await axios.get(`https://api.zeks.xyz/api/nulis?apikey=cjxJIn9eDletRHac3CG6CdvGxFH&text=${encodeURIComponent(match[1])}`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*Made by ◇─◇◇────◇─ ✿  Akina  ✿═─◄█▓▒░*' })
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '🌹 *Made By Akina* 🦚' })
 
     }));
 }
@@ -226,7 +226,7 @@ else if (Config.WORKTYPE == 'public') {
 
         var ttinullimage = await axios.get(`https://api.zeks.xyz/api/nulis?apikey=cjxJIn9eDletRHac3CG6CdvGxFH&text=${encodeURIComponent(match[1])}`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*Made by ◇─◇◇────◇─ ✿  Akina  ✿═─◄█▓▒░*' })
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '🌹 *Made By Akina* 🦚' })
 
     }));
     
@@ -240,7 +240,7 @@ if (Config.WORKTYPE == 'private') {
 
         var ttinullimage = await axios.get(`https://api.zeks.xyz/api/logobp?apikey=cjxJIn9eDletRHac3CG6CdvGxFH&text=${encodeURIComponent(match[1])}`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*Made by ◇─◇◇────◇─ ✿  Akina  ✿═─◄█▓▒░*' })
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '🌹 *Made By Akina* 🦚' })
 
     }));
 }
@@ -253,7 +253,7 @@ else if (Config.WORKTYPE == 'public') {
 
         var ttinullimage = await axios.get(`https://api.zeks.xyz/api/logobp?apikey=cjxJIn9eDletRHac3CG6CdvGxFH&text=${encodeURIComponent(match[1])}`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*Made by ◇─◇◇────◇─ ✿  Akina  ✿═─◄█▓▒░*' })
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '🌹 *Made By Akina* 🦚' })
 
     }));
     
@@ -267,7 +267,7 @@ if (Config.WORKTYPE == 'private') {
 
         var ttinullimage = await axios.get(`https://api.zeks.xyz/api/brand-logo?apikey=cjxJIn9eDletRHac3CG6CdvGxFH&type=1&text=${encodeURIComponent(match[1])}`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*Made by ◇─◇◇────◇─ ✿  Akina  ✿═─◄█▓▒░*' })
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '🌹 *Made By Akina* 🦚' })
 
     }));
 }
@@ -280,7 +280,7 @@ else if (Config.WORKTYPE == 'public') {
 
         var ttinullimage = await axios.get(`https://api.zeks.xyz/api/brand-logo?apikey=cjxJIn9eDletRHac3CG6CdvGxFH&type=1&text=${encodeURIComponent(match[1])}`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*Made by ◇─◇◇────◇─ ✿  Akina  ✿═─◄█▓▒░*' })
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '🌹 *Made By Akina* 🦚' })
 
     }));
     
@@ -295,7 +295,7 @@ if (Config.WORKTYPE == 'private') {
 
         var ttinullimage = await axios.get(`https://api.zeks.xyz/api/breakwall?apikey=cjxJIn9eDletRHac3CG6CdvGxFH&text=${encodeURIComponent(match[1])}`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*Made by ◇─◇◇────◇─ ✿  Akina  ✿═─◄█▓▒░*' })
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '🌹 *Made By Akina* 🦚' })
 
     }));
 }
@@ -308,7 +308,7 @@ else if (Config.WORKTYPE == 'public') {
 
         var ttinullimage = await axios.get(`https://api.zeks.xyz/api/breakwall?apikey=cjxJIn9eDletRHac3CG6CdvGxFH&text=${encodeURIComponent(match[1])}`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*Made by ◇─◇◇────◇─ ✿  Akina  ✿═─◄█▓▒░*' })
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '🌹 *Made By Akina* 🦚' })
 
     }));
     
@@ -323,7 +323,7 @@ if (Config.WORKTYPE == 'private') {
 
         var ttinullimage = await axios.get(`https://videfikri.com/api/textmaker/sweetcandy/?text=${encodeURIComponent(match[1])}`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*Made by ◇─◇◇────◇─ ✿  Akina  ✿═─◄█▓▒░*' })
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '🌹 *Made By Akina* 🦚' })
 
     }));
 }
@@ -336,7 +336,7 @@ else if (Config.WORKTYPE == 'public') {
 
         var ttinullimage = await axios.get(`https://videfikri.com/api/textmaker/sweetcandy/?text=${encodeURIComponent(match[1])}`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*Made by ◇─◇◇────◇─ ✿  Akina  ✿═─◄█▓▒░*' })
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '🌹 *Made By Akina* 🦚' })
 
     }));
     
@@ -351,7 +351,7 @@ if (Config.WORKTYPE == 'private') {
 
         var ttinullimage = await axios.get(`https://videfikri.com/api/textmaker/coffeecup2/?text=${encodeURIComponent(match[1])}`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*Made by ◇─◇◇────◇─ ✿  Akina  ✿═─◄█▓▒░*' })
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '🌹 *Made By Akina* 🦚' })
 
     }));
 }
@@ -364,7 +364,7 @@ else if (Config.WORKTYPE == 'public') {
 
         var ttinullimage = await axios.get(`https://videfikri.com/api/textmaker/coffeecup2/?text=${encodeURIComponent(match[1])}`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*Made by ◇─◇◇────◇─ ✿  Akina  ✿═─◄█▓▒░*' })
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '🌹 *Made By Akina* 🦚' })
 
     }));
     
@@ -379,7 +379,7 @@ if (Config.WORKTYPE == 'private') {
 
         var ttinullimage = await axios.get(`https://api.zeks.xyz/api/crosslogo?apikey=cjxJIn9eDletRHac3CG6CdvGxFH&text=${encodeURIComponent(match[1])}`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*Made by ◇─◇◇────◇─ ✿  Akina  ✿═─◄█▓▒░*' })
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '🌹 *Made By Akina* 🦚' })
 
     }));
 }
@@ -392,7 +392,7 @@ else if (Config.WORKTYPE == 'public') {
 
         var ttinullimage = await axios.get(`https://api.zeks.xyz/api/crosslogo?apikey=cjxJIn9eDletRHac3CG6CdvGxFH&text=${encodeURIComponent(match[1])}`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*Made by ◇─◇◇────◇─ ✿  Akina  ✿═─◄█▓▒░*' })
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '🌹 *Made By Akina* 🦚' })
 
     }));
 }
@@ -405,7 +405,7 @@ if (Config.WORKTYPE == 'private') {
 
         var ttinullimage = await axios.get(`https://api.zeks.xyz/api/crismes?apikey=cjxJIn9eDletRHac3CG6CdvGxFH&text=${encodeURIComponent(match[1])}`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*Made by ◇─◇◇────◇─ ✿  Akina  ✿═─◄█▓▒░*' })
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '🌹 *Made By Akina* 🦚' })
 
     }));
 }
@@ -418,7 +418,7 @@ else if (Config.WORKTYPE == 'public') {
 
         var ttinullimage = await axios.get(`https://api.zeks.xyz/api/crismes?apikey=cjxJIn9eDletRHac3CG6CdvGxFH&text=${encodeURIComponent(match[1])}`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*Made by ◇─◇◇────◇─ ✿  Akina  ✿═─◄█▓▒░*' })
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '🌹 *Made By Akina* 🦚' })
 
     }));
     
@@ -433,7 +433,7 @@ if (Config.WORKTYPE == 'private') {
 
         var ttinullimage = await axios.get(`https://api.xteam.xyz/photooxy/dota2avatar?text=${encodeURIComponent(match[1])}&APIKEY=7d9712378e88936a`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*Made by ◇─◇◇────◇─ ✿  Akina  ✿═─◄█▓▒░*' })
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '🌹 *Made By Akina* 🦚' })
 
     }));
 }
@@ -446,7 +446,7 @@ else if (Config.WORKTYPE == 'public') {
 
         var ttinullimage = await axios.get(`https://api.xteam.xyz/photooxy/dota2avatar?text=${encodeURIComponent(match[1])}&APIKEY=7d9712378e88936a`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*Made by ◇─◇◇────◇─ ✿  Akina  ✿═─◄█▓▒░*' })
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '🌹 *Made By Akina* 🦚' })
 
     }));
     
@@ -461,7 +461,7 @@ if (Config.WORKTYPE == 'private') {
 
         var ttinullimage = await axios.get(`https://videfikri.com/api/textmaker/darkneon/?text=${encodeURIComponent(match[1])}`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*Made by ◇─◇◇────◇─ ✿  AKina  ✿═─◄█▓▒░*' })
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '🌹 *Made By Akina* 🦚' })
 
     }));
 }
@@ -474,7 +474,7 @@ else if (Config.WORKTYPE == 'public') {
 
         var ttinullimage = await axios.get(`https://videfikri.com/api/textmaker/darkneon/?text=${encodeURIComponent(match[1])}`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*Made by◇─◇◇────◇─ ✿  AKina  ✿═─◄█▓▒░*' })
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '🌹 *Made By Akina* 🦚' })
 
     }));
     
@@ -488,7 +488,7 @@ if (Config.WORKTYPE == 'private') {
 
         var ttinullimage = await axios.get(`https://api.zeks.xyz/api/dropwater?apikey=cjxJIn9eDletRHac3CG6CdvGxFH&text=${encodeURIComponent(match[1])}`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*Made by ◇─◇◇────◇─ ✿  Akina  ✿═─◄█▓▒░*' })
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '🌹 *Made By Akina* 🦚' })
 
     }));
 }
@@ -501,7 +501,7 @@ else if (Config.WORKTYPE == 'public') {
 
         var ttinullimage = await axios.get(`https://api.zeks.xyz/api/dropwater?apikey=cjxJIn9eDletRHac3CG6CdvGxFH&text=${encodeURIComponent(match[1])}`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*Made by ◇─◇◇────◇─ ✿  Akina  ✿═─◄█▓▒░*' })
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '🌹 *Made By Akina* 🦚' })
 
     }));
     
@@ -516,7 +516,7 @@ if (Config.WORKTYPE == 'private') {
 
         var ttinullimage = await axios.get(`https://api.zeks.xyz/api/epep?apikey=cjxJIn9eDletRHac3CG6CdvGxFH&text=${encodeURIComponent(match[1])}`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*Made by ◇─◇◇────◇─ ✿  Akina  ✿═─◄█▓▒░*' })
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '🌹 *Made By Akina* 🦚' })
 
     }));
 }
@@ -529,7 +529,7 @@ else if (Config.WORKTYPE == 'public') {
 
         var ttinullimage = await axios.get(`https://api.zeks.xyz/api/epep?apikey=cjxJIn9eDletRHac3CG6CdvGxFH&text=${encodeURIComponent(match[1])}`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*Made by ◇─◇◇────◇─ ✿  Akina  ✿═─◄█▓▒░*' })
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '🌹 *Made By Akina* 🦚' })
 
     }));
     
@@ -544,7 +544,7 @@ if (Config.WORKTYPE == 'private') {
 
         var ttinullimage = await axios.get(`https://api.zeks.xyz/api/tfire?apikey=cjxJIn9eDletRHac3CG6CdvGxFH&text=${encodeURIComponent(match[1])}`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*Made by ◇─◇◇────◇─ ✿  Akina  ✿═─◄█▓▒░*' })
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '🌹 *Made By Akina* 🦚' })
 
     }));
 }
@@ -557,7 +557,7 @@ else if (Config.WORKTYPE == 'public') {
 
         var ttinullimage = await axios.get(`https://api.zeks.xyz/api/tfire?apikey=cjxJIn9eDletRHac3CG6CdvGxFH&text=${encodeURIComponent(match[1])}`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*Made by ◇─◇◇────◇─ ✿  Akina  ✿═─◄█▓▒░*' })
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '🌹 *Made By Akina* 🦚' })
 
     }));
     
@@ -572,7 +572,7 @@ if (Config.WORKTYPE == 'private') {
 
         var ttinullimage = await axios.get(`https://docs-jojo.herokuapp.com/api/galaxywp?text=${encodeURIComponent(match[1])}`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*Made by ◇─◇◇────◇─ ✿  Akina  ✿═─◄█▓▒░*' })
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '🌹 *Made By Akina* 🦚' })
 
     }));
 }
@@ -585,7 +585,7 @@ else if (Config.WORKTYPE == 'public') {
 
         var ttinullimage = await axios.get(`https://docs-jojo.herokuapp.com/api/galaxywp?text=${encodeURIComponent(match[1])}`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*Made by ◇─◇◇────◇─ ✿  Akina  ✿═─◄█▓▒░*' })
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '🌹 *Made By Akina* 🦚' })
 
     }));
     
@@ -600,7 +600,7 @@ if (Config.WORKTYPE == 'private') {
 
         var ttinullimage = await axios.get(`https://api.xteam.xyz/photooxy/gerbang?text=${encodeURIComponent(match[1])}&APIKEY=7d9712378e88936a`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*Made by ◇─◇◇────◇─ ✿  Akina  ✿═─◄█▓▒░*' })
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '🌹 *Made By Akina* 🦚' })
 
     }));
 }
@@ -613,7 +613,7 @@ else if (Config.WORKTYPE == 'public') {
 
         var ttinullimage = await axios.get(`https://api.xteam.xyz/photooxy/gerbang?text=${encodeURIComponent(match[1])}&APIKEY=7d9712378e88936a`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*Made by ◇─◇◇────◇─ ✿  Akina  ✿═─◄█▓▒░*' })
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '🌹 *Made By Akina* 🦚' })
 
     }));
     
@@ -628,7 +628,7 @@ if (Config.WORKTYPE == 'private') {
 
         var ttinullimage = await axios.get(`https://api.zeks.xyz/api/glowtext?apikey=cjxJIn9eDletRHac3CG6CdvGxFH&text=${encodeURIComponent(match[1])}`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*Made by ◇─◇◇────◇─ ✿  Akina  ✿═─◄█▓▒░*' })
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '🌹 *Made By Akina* 🦚' })
 
     }));
 }
@@ -641,7 +641,7 @@ else if (Config.WORKTYPE == 'public') {
 
         var ttinullimage = await axios.get(`https://api.zeks.xyz/api/glowtext?apikey=cjxJIn9eDletRHac3CG6CdvGxFH&text=${encodeURIComponent(match[1])}`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*Made by ◇─◇◇────◇─ ✿  Akina  ✿═─◄█▓▒░*' })
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '🌹 *Made By Akina* 🦚' })
 
     }));
     
@@ -657,7 +657,7 @@ if (Config.WORKTYPE == 'private') {
 
         var ttinullimage = await axios.get(`https://api.zeks.xyz/api/gplaybutton?apikey=cjxJIn9eDletRHac3CG6CdvGxFH&text=${encodeURIComponent(match[1])}`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*Made by ◇─◇◇────◇─ ✿  Akina  ✿═─◄█▓▒░*' })
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '🌹 *Made By Akina* 🦚' })
 
     }));
 }
@@ -670,7 +670,7 @@ else if (Config.WORKTYPE == 'public') {
 
         var ttinullimage = await axios.get(`https://api.zeks.xyz/api/gplaybutton?apikey=cjxJIn9eDletRHac3CG6CdvGxFH&text=${encodeURIComponent(match[1])}`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*Made by ◇─◇◇────◇─ ✿  Akina  ✿═─◄█▓▒░*' })
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '🌹 *Made By Akina* 🦚' })
 
     }));
     
@@ -685,7 +685,7 @@ if (Config.WORKTYPE == 'private') {
 
         var ttinullimage = await axios.get(`https://api.zeks.xyz/api/gtext?apikey=cjxJIn9eDletRHac3CG6CdvGxFH&text1=${encodeURIComponent(match[1])}&text2=GANG`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*Made by ◇─◇◇────◇─ ✿  Akina  ✿═─◄█▓▒░*' })
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '🌹 *Made By Akina* 🦚' })
 
     }));
 }
@@ -698,7 +698,7 @@ else if (Config.WORKTYPE == 'public') {
 
         var ttinullimage = await axios.get(`https://api.zeks.xyz/api/gtext?apikey=cjxJIn9eDletRHac3CG6CdvGxFH&text1=${encodeURIComponent(match[1])}&text2=GANG`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*Made by ◇─◇◇────◇─ ✿  Akina  ✿═─◄█▓▒░*' })
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '🌹 *Made By Akina* 🦚' })
 
     }));
     
@@ -713,7 +713,7 @@ if (Config.WORKTYPE == 'private') {
 
         var ttinullimage = await axios.get(`https://lolhuman.herokuapp.com/api/textprome/horrorblood?apikey=f03ace0b7aae88a934af0216&text=${encodeURIComponent(match[1])}`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*Made by ◇─◇◇────◇─ ✿  Akina  ✿═─◄█▓▒░*' })
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '🌹 *Made By Akina* 🦚' })
 
     }));
 }
@@ -726,7 +726,7 @@ else if (Config.WORKTYPE == 'public') {
 
         var ttinullimage = await axios.get(`https://lolhuman.herokuapp.com/api/textprome/horrorblood?apikey=f03ace0b7aae88a934af0216&text=${encodeURIComponent(match[1])}`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*Made by ◇─◇◇────◇─ ✿  Akina  ✿═─◄█▓▒░*' })
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '🌹 *Made By Akina* 🦚' })
 
     }));
     
@@ -741,7 +741,7 @@ if (Config.WORKTYPE == 'private') {
 
         var ttinullimage = await axios.get(`https://api.zeks.xyz/api/hartatahta?apikey=cjxJIn9eDletRHac3CG6CdvGxFH&text=${encodeURIComponent(match[1])}`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*Made by ◇─◇◇────◇─ ✿  Akina  ✿═─◄█▓▒░*' })
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '🌹 *Made By Akina* 🦚' })
 
     }));
 }
@@ -754,7 +754,7 @@ else if (Config.WORKTYPE == 'public') {
 
         var ttinullimage = await axios.get(`https://api.zeks.xyz/api/hartatahta?apikey=cjxJIn9eDletRHac3CG6CdvGxFH&text=${encodeURIComponent(match[1])}`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*Made by ◇─◇◇────◇─ ✿  Akina  ✿═─◄█▓▒░*' })
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '🌹 *Made By Akina* 🦚' })
 
     }));
     
@@ -768,7 +768,7 @@ if (Config.WORKTYPE == 'private') {
 
         var ttinullimage = await axios.get(`https://api.zeks.xyz/api/leavest?apikey=cjxJIn9eDletRHac3CG6CdvGxFH&text=${encodeURIComponent(match[1])}`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*Made by ◇─◇◇────◇─ ✿  Akina  ✿═─◄█▓▒░*' })
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '🌹 *Made By Akina* 🦚' })
 
     }));
 }
@@ -781,7 +781,7 @@ else if (Config.WORKTYPE == 'public') {
 
         var ttinullimage = await axios.get(`https://api.zeks.xyz/api/leavest?apikey=cjxJIn9eDletRHac3CG6CdvGxFH&text=${encodeURIComponent(match[1])}`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*Made by ◇─◇◇────◇─ ✿  Akina  ✿═─◄█▓▒░*' })
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '🌹 *Made By Akina* 🦚' })
 
     }));
     
@@ -793,9 +793,9 @@ if (Config.WORKTYPE == 'private') {
 
         if (match[1] === '') return await message.sendMessage(need);
 
-        var ttinullimage = await axios.get(`https://lolhuman.herokuapp.com/api/textprome2/lionlogo?apikey=f03ace0b7aae88a934af0216&text1=RAVANA&text2=${encodeURIComponent(match[1])}`, { responseType: 'arraybuffer' })
+        var ttinullimage = await axios.get(`https://lolhuman.herokuapp.com/api/textprome2/lionlogo?apikey=f03ace0b7aae88a934af0216&text1=AKINA&text2=${encodeURIComponent(match[1])}`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*Made by ◇─◇◇────◇─ ✿  Akina  ✿═─◄█▓▒░*' })
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '🌹 *Made By Akina* 🦚' })
 
     }));
 }
@@ -806,9 +806,9 @@ else if (Config.WORKTYPE == 'public') {
 
         if (match[1] === '') return await message.sendMessage(need);
 
-        var ttinullimage = await axios.get(`https://lolhuman.herokuapp.com/api/textprome2/lionlogo?apikey=f03ace0b7aae88a934af0216&text1=RAVANA&text2=${encodeURIComponent(match[1])}`, { responseType: 'arraybuffer' })
+        var ttinullimage = await axios.get(`https://lolhuman.herokuapp.com/api/textprome2/lionlogo?apikey=f03ace0b7aae88a934af0216&text1=AKINA&text2=${encodeURIComponent(match[1])}`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*Made by ◇─◇◇────◇─ ✿  Akina  ✿═─◄█▓▒░*' })
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '🌹 *Made By Akina* 🦚' })
 
     }));
     
@@ -824,7 +824,7 @@ if (Config.WORKTYPE == 'private') {
 
         var ttinullimage = await axios.get(`https://dynamic.brandcrowd.com/asset/logo/7f0254b2-49ae-4819-9107-47728665a65f/logo?v=4&text=${match[1].replace(/Ö/g, "%C3%96").replace(/ö/g, "%C3%B6").replace(/ü/g, "%C3%BC").replace(/Ü/g, "%C3%9C").replace(/Ğ/g, "%C4%9E").replace(/ğ/g, "%C4%9F").replace(/ş/g, "%C5%9F").replace(/Ş/g, "%C5%9E").replace(/ç/g, "%C3%A7").replace(/Ç/g, "%C3%87").replace(/ı/g, "%C4%B1").replace(/i/g, "%69").replace(/"/g, "%22").replace(/İ/g, "%C4%B0")}`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: 'Made by ◇─◇◇────◇─ ✿  Akina  ✿═─◄█▓▒░' })
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '🌹 *Made By Akina* 🦚' })
 
     }));
 }
@@ -837,7 +837,7 @@ else if (Config.WORKTYPE == 'public') {
 
         var ttinullimage = await axios.get(`https://dynamic.brandcrowd.com/asset/logo/7f0254b2-49ae-4819-9107-47728665a65f/logo?v=4&text=${match[1].replace(/Ö/g, "%C3%96").replace(/ö/g, "%C3%B6").replace(/ü/g, "%C3%BC").replace(/Ü/g, "%C3%9C").replace(/Ğ/g, "%C4%9E").replace(/ğ/g, "%C4%9F").replace(/ş/g, "%C5%9F").replace(/Ş/g, "%C5%9E").replace(/ç/g, "%C3%A7").replace(/Ç/g, "%C3%87").replace(/ı/g, "%C4%B1").replace(/i/g, "%69").replace(/"/g, "%22").replace(/İ/g, "%C4%B0")}`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: 'Made by◇─◇◇────◇─ ✿  Akina  ✿═─◄█▓▒░' })
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '🌹 *Made By Akina* 🦚' })
 
     }));
 }
@@ -850,7 +850,7 @@ if (Config.WORKTYPE == 'private') {
 
         var ttinullimage = await axios.get(`https://api.xteam.xyz/photooxy/lol?text=${encodeURIComponent(match[1])}&APIKEY=7d9712378e88936a`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*Made by ◇─◇◇────◇─ ✿  Akina  ✿═─◄█▓▒░*' })
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '🌹 *Made By Akina* 🦚' })
 
     }));
 }
@@ -863,7 +863,7 @@ else if (Config.WORKTYPE == 'public') {
 
         var ttinullimage = await axios.get(`https://api.xteam.xyz/photooxy/lol?text=${encodeURIComponent(match[1])}&APIKEY=7d9712378e88936a`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*Made by ◇─◇◇────◇─ ✿  Akina  ✿═─◄█▓▒░*' })
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '🌹 *Made By Akina* 🦚' })
 
     }));
     
@@ -877,7 +877,7 @@ if (Config.WORKTYPE == 'private') {
 
         var ttinullimage = await axios.get(`https://api.xteam.xyz/photooxy/luxuryroyal?text=${encodeURIComponent(match[1])}&APIKEY=7d9712378e88936a`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*Made by ◇─◇◇────◇─ ✿  Akina  ✿═─◄█▓▒░*' })
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '🌹 *Made By Akina* 🦚' })
 
     }));
 }
@@ -890,7 +890,527 @@ else if (Config.WORKTYPE == 'public') {
 
         var ttinullimage = await axios.get(`https://api.xteam.xyz/photooxy/luxuryroyal?text=${encodeURIComponent(match[1])}&APIKEY=7d9712378e88936a`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*Made by ◇─◇◇────◇─ ✿  Akina  ✿═─◄█▓▒░*' })
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '🌹 *Made By Akina* 🦚' })
+
+    }));
+    
+}
+if (Config.WORKTYPE == 'private') {
+
+    Asena.addCommand({ pattern: 'spaper ?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
+
+        if (match[1] === '') return await message.sendMessage(need);
+
+        var ttinullimage = await axios.get(`https://videfikri.com/api/textmaker/paperonglass/?text=${encodeURIComponent(match[1])}`, { responseType: 'arraybuffer' })
+
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '🌹 *Made By Akina* 🦚' })
+
+    }));
+}
+
+else if (Config.WORKTYPE == 'public') {
+
+    Asena.addCommand({ pattern: 'spaper ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
+
+        if (match[1] === '') return await message.sendMessage(need);
+
+        var ttinullimage = await axios.get(`https://videfikri.com/api/textmaker/paperonglass/?text=${encodeURIComponent(match[1])}`, { responseType: 'arraybuffer' })
+
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '🌹 *Made By Akina* 🦚' })
+
+    }));
+    
+}
+if (Config.WORKTYPE == 'private') {
+
+    Asena.addCommand({ pattern: 'spark ?(.*)', fromMe: true,dontAddCommandList: true}, (async (message, match) => {
+
+        if (match[1] === '') return await message.sendMessage(lol);
+
+        var ttinullimage = await axios.get(`https://docs-jojo.herokuapp.com/api/sparkling?text1=${encodeURIComponent(match[1])}&text2=◇─◇◇────◇─ ✿  ᗪ𝓪Ⓣ𝓪 𝐋σ𝓥εŘ  ✿═─◄█▓▒░`, { responseType: 'arraybuffer' })
+
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '🌹 *Made By Akina* 🦚' })
+
+    }));
+}
+
+else if (Config.WORKTYPE == 'public') {
+
+    Asena.addCommand({ pattern: 'spark ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
+
+        if (match[1] === '') return await message.sendMessage(lol);
+
+        var ttinullimage = await axios.get(`https://docs-jojo.herokuapp.com/api/sparkling?text1=${encodeURIComponent(match[1])}&text2=◇─◇◇────◇─ ✿  ᗪ𝓪Ⓣ𝓪 𝐋σ𝓥εŘ  ✿═─◄█▓▒░`, { responseType: 'arraybuffer' })
+
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '🌹 *Made By Akina* 🦚' })
+
+    }));
+    
+}
+if (Config.WORKTYPE == 'private') {
+
+    Asena.addCommand({ pattern: 'sphlogo ?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
+
+        if (match[1] === '') return await message.sendMessage(need);
+
+        var ttinullimage = await axios.get(`https://api.zeks.xyz/api/phlogo?apikey=cjxJIn9eDletRHac3CG6CdvGxFH&text1=${encodeURIComponent(match[1])}&text2=HUB`, { responseType: 'arraybuffer' })
+
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '🌹 *Made By Akina* 🦚' })
+
+    }));
+}
+
+else if (Config.WORKTYPE == 'public') {
+
+    Asena.addCommand({ pattern: 'sphlogo ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
+
+        if (match[1] === '') return await message.sendMessage(need);
+
+        var ttinullimage = await axios.get(`https://api.zeks.xyz/api/phlogo?apikey=cjxJIn9eDletRHac3CG6CdvGxFH&text1=${encodeURIComponent(match[1])}&text2=HUB`, { responseType: 'arraybuffer' })
+
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '🌹 *Made By Akina* 🦚' })
+
+    }));
+    
+}
+if (Config.WORKTYPE == 'private') {
+
+    Asena.addCommand({ pattern: 'spubg ?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
+
+        if (match[1] === '') return await message.sendMessage(need);
+
+        var ttinullimage = await axios.get(`https://api.zeks.xyz/api/pubglogo?apikey=cjxJIn9eDletRHac3CG6CdvGxFH&text1=AKINA%20SL&text2=${encodeURIComponent(match[1])}`, { responseType: 'arraybuffer' })
+
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '🌹 *Made By Akina* 🦚' })
+
+    }));
+}
+
+else if (Config.WORKTYPE == 'public') {
+
+    Asena.addCommand({ pattern: 'spubg ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
+
+        if (match[1] === '') return await message.sendMessage(need);
+
+        var ttinullimage = await axios.get(`https://api.zeks.xyz/api/pubglogo?apikey=cjxJIn9eDletRHac3CG6CdvGxFH&text1=AKINA%20SL&text2=${encodeURIComponent(match[1])}`, { responseType: 'arraybuffer' })
+
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '🌹 *Made By Akina* 🦚' })
+
+    }));
+    
+}
+if (Config.WORKTYPE == 'private') {
+
+    Asena.addCommand({ pattern: 'ssandw ?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
+
+        if (match[1] === '') return await message.sendMessage(need);
+
+        var ttinullimage = await axios.get(`https://api.zeks.xyz/api/sandw?apikey=cjxJIn9eDletRHac3CG6CdvGxFH&text=${encodeURIComponent(match[1])}`, { responseType: 'arraybuffer' })
+
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '🌹 *Made By Akina* 🦚' })
+
+    }));
+}
+
+else if (Config.WORKTYPE == 'public') {
+
+    Asena.addCommand({ pattern: 'ssandw ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
+
+        if (match[1] === '') return await message.sendMessage(need);
+
+        var ttinullimage = await axios.get(`https://api.zeks.xyz/api/sandw?apikey=cjxJIn9eDletRHac3CG6CdvGxFH&text=${encodeURIComponent(match[1])}`, { responseType: 'arraybuffer' })
+
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '🌹 *Made By Akina* 🦚' })
+
+    }));
+    
+}
+if (Config.WORKTYPE == 'private') {
+
+    Asena.addCommand({ pattern: 'ssilk ?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
+
+        if (match[1] === '') return await message.sendMessage(need);
+
+        var ttinullimage = await axios.get(`https://api.zeks.xyz/api/silktext?apikey=cjxJIn9eDletRHac3CG6CdvGxFH&text=${encodeURIComponent(match[1])}`, { responseType: 'arraybuffer' })
+
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*Made by ◇─◇◇────◇─ ✿ Akina  ✿═─◄█▓▒░*' })
+
+    }));
+}
+
+else if (Config.WORKTYPE == 'public') {
+
+    Asena.addCommand({ pattern: 'ssilk ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
+
+        if (match[1] === '') return await message.sendMessage(need);
+
+        var ttinullimage = await axios.get(`https://api.zeks.xyz/api/silktext?apikey=cjxJIn9eDletRHac3CG6CdvGxFH&text=${encodeURIComponent(match[1])}`, { responseType: 'arraybuffer' })
+
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '🌹 *Made By Akina* 🦚' })
+
+    }));
+    
+}
+if (Config.WORKTYPE == 'private') {
+
+    Asena.addCommand({ pattern: 'ssky ?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
+
+        if (match[1] === '') return await message.sendMessage(need);
+
+        var ttinullimage = await axios.get(`https://api.zeks.xyz/api/skytext?apikey=cjxJIn9eDletRHac3CG6CdvGxFH&text=${encodeURIComponent(match[1])}`, { responseType: 'arraybuffer' })
+
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '🌹 *Made By Akina* 🦚' })
+
+    }));
+}
+
+else if (Config.WORKTYPE == 'public') {
+
+    Asena.addCommand({ pattern: 'ssky ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
+
+        if (match[1] === '') return await message.sendMessage(need);
+
+        var ttinullimage = await axios.get(`https://api.zeks.xyz/api/skytext?apikey=cjxJIn9eDletRHac3CG6CdvGxFH&text=${encodeURIComponent(match[1])}`, { responseType: 'arraybuffer' })
+
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '🌹 *Made By Akina* 🦚' })
+
+    }));
+    
+}
+if (Config.WORKTYPE == 'private') {
+
+    Asena.addCommand({ pattern: 'ssmoke ?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
+
+        if (match[1] === '') return await message.sendMessage(need);
+
+        var ttinullimage = await axios.get(`https://api.zeks.xyz/api/smoketext?apikey=cjxJIn9eDletRHac3CG6CdvGxFH&text=${encodeURIComponent(match[1])}`, { responseType: 'arraybuffer' })
+
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '🌹 *Made By Akina* 🦚' })
+
+    }));
+}
+
+else if (Config.WORKTYPE == 'public') {
+
+    Asena.addCommand({ pattern: 'ssmoke ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
+
+        if (match[1] === '') return await message.sendMessage(need);
+
+        var ttinullimage = await axios.get(`https://api.zeks.xyz/api/smoketext?apikey=cjxJIn9eDletRHac3CG6CdvGxFH&text=${encodeURIComponent(match[1])}`, { responseType: 'arraybuffer' })
+
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '🌹 *Made By Akina* 🦚' })
+
+    }));
+    
+}
+if (Config.WORKTYPE == 'private') {
+
+    Asena.addCommand({ pattern: 'ssn ?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
+
+        if (match[1] === '') return await message.sendMessage(need);
+
+        var ttinullimage = await axios.get(`https://api.zeks.xyz/api/snowwrite?apikey=cjxJIn9eDletRHac3CG6CdvGxFH&text1=AKINA%20SL&text2=${encodeURIComponent(match[1])}`, { responseType: 'arraybuffer' })
+
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '🌹 *Made By Akina* 🦚' })
+
+    }));
+}
+
+else if (Config.WORKTYPE == 'public') {
+
+    Asena.addCommand({ pattern: 'ssn ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
+
+        if (match[1] === '') return await message.sendMessage(need);
+
+        var ttinullimage = await axios.get(`https://api.zeks.xyz/api/snowwrite?apikey=cjxJIn9eDletRHac3CG6CdvGxFH&text1=AKINA%20SL&text2=${encodeURIComponent(match[1])}`, { responseType: 'arraybuffer' })
+
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '🌹 *Made By Akina* 🦚' })
+
+    }));
+    
+}
+if (Config.WORKTYPE == 'private') {
+
+    Asena.addCommand({ pattern: 'sspace ?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
+
+        if (match[1] === '') return await message.sendMessage(need);
+
+        var ttinullimage = await axios.get(`https://lolhuman.herokuapp.com/api/textprome2/space?apikey=f03ace0b7aae88a934af0216&text1=AKINA&text2=${encodeURIComponent(match[1])}`, { responseType: 'arraybuffer' })
+
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '🌹 *Made By Akina* 🦚' })
+
+    }));
+}
+
+else if (Config.WORKTYPE == 'public') {
+
+    Asena.addCommand({ pattern: 'sspace ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
+
+        if (match[1] === '') return await message.sendMessage(need);
+
+        var ttinullimage = await axios.get(`https://lolhuman.herokuapp.com/api/textprome2/space?apikey=f03ace0b7aae88a934af0216&text1=AKINA&text2=${encodeURIComponent(match[1])}`, { responseType: 'arraybuffer' })
+
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '🌹 *Made By Akina* 🦚' })
+
+    }));
+    
+}
+if (Config.WORKTYPE == 'private') {
+
+    Asena.addCommand({ pattern: 'ssplay ?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
+
+        if (match[1] === '') return await message.sendMessage(need);
+
+        var ttinullimage = await axios.get(`https://api.zeks.xyz/api/splaybutton?apikey=cjxJIn9eDletRHac3CG6CdvGxFH&text=${encodeURIComponent(match[1])}`, { responseType: 'arraybuffer' })
+
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '🌹 *Made By Akina* 🦚' })
+
+    }));
+}
+
+else if (Config.WORKTYPE == 'public') {
+
+    Asena.addCommand({ pattern: 'ssplay ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
+
+        if (match[1] === '') return await message.sendMessage(need);
+
+        var ttinullimage = await axios.get(`https://api.zeks.xyz/api/splaybutton?apikey=cjxJIn9eDletRHac3CG6CdvGxFH&text=${encodeURIComponent(match[1])}`, { responseType: 'arraybuffer' })
+
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '🌹 *Made By Akina* 🦚' })
+
+    }));
+    
+}
+if (Config.WORKTYPE == 'private') {
+
+    Asena.addCommand({ pattern: 'sst ?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
+
+        if (match[1] === '') return await message.sendMessage(need);
+
+        var ttinullimage = await axios.get(`https://api.xteam.xyz/textpro/strawberry?text=${encodeURIComponent(match[1])}&APIKEY=7d9712378e88936a`, { responseType: 'arraybuffer' })
+
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '🌹 *Made By Akina* 🦚' })
+
+    }));
+}
+
+else if (Config.WORKTYPE == 'public') {
+
+    Asena.addCommand({ pattern: 'sst ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
+
+        if (match[1] === '') return await message.sendMessage(need);
+
+        var ttinullimage = await axios.get(`https://api.xteam.xyz/textpro/strawberry?text=${encodeURIComponent(match[1])}&APIKEY=7d9712378e88936a`, { responseType: 'arraybuffer' })
+
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '🌹 *Made By Akina* 🦚' })
+
+    }));
+    
+}
+if (Config.WORKTYPE == 'private') {
+
+    Asena.addCommand({ pattern: 'stlogo ?(.*)', fromMe: true,dontAddCommandList: true}, (async (message, match) => {
+
+        if (match[1] === '') return await message.sendMessage(lol);
+
+        var ttinullimage = await axios.get(`https://docs-jojo.herokuapp.com/api/ttlogo?text1=${encodeURIComponent(match[1])}&text2=${encodeURIComponent(match[1])}`, { responseType: 'arraybuffer' })
+
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '🌹 *Made By Akina* 🦚' })
+
+    }));
+}
+
+else if (Config.WORKTYPE == 'public') {
+
+    Asena.addCommand({ pattern: 'stlogo ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
+
+        if (match[1] === '') return await message.sendMessage(lol);
+
+        var ttinullimage = await axios.get(`https://docs-jojo.herokuapp.com/api/ttlogo?text1=${encodeURIComponent(match[1])}&text2=${encodeURIComponent(match[1])}`, { responseType: 'arraybuffer' })
+
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '🌹 *Made By Akina* 🦚' })
+
+    }));
+    
+}
+if (Config.WORKTYPE == 'private') {
+
+    Asena.addCommand({ pattern: 'stoxic ?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
+
+        if (match[1] === '') return await message.sendMessage(need);
+
+        var ttinullimage = await axios.get(`https://api.xteam.xyz/textpro/toxic?text=${encodeURIComponent(match[1])}&APIKEY=7d9712378e88936a`, { responseType: 'arraybuffer' })
+
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '🌹 *Made By Akina* 🦚' })
+
+    }));
+}
+
+else if (Config.WORKTYPE == 'public') {
+
+    Asena.addCommand({ pattern: 'stoxic ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
+
+        if (match[1] === '') return await message.sendMessage(need);
+
+        var ttinullimage = await axios.get(`https://api.xteam.xyz/textpro/toxic?text=${encodeURIComponent(match[1])}&APIKEY=7d9712378e88936a`, { responseType: 'arraybuffer' })
+
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '🌹 *Made By Akina* 🦚' })
+
+    }));
+    
+}
+if (Config.WORKTYPE == 'private') {
+
+    Asena.addCommand({ pattern: 'suwo ?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
+
+        if (match[1] === '') return await message.sendMessage(need);
+
+        var ttinullimage = await axios.get(`https://videfikri.com/api/textmaker/underwater/?text=${encodeURIComponent(match[1])}`, { responseType: 'arraybuffer' })
+
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '🌹 *Made By Akina* 🦚' })
+
+    }));
+}
+
+else if (Config.WORKTYPE == 'public') {
+
+    Asena.addCommand({ pattern: 'suwo ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
+
+        if (match[1] === '') return await message.sendMessage(need);
+
+        var ttinullimage = await axios.get(`https://videfikri.com/api/textmaker/underwater/?text=${encodeURIComponent(match[1])}`, { responseType: 'arraybuffer' })
+
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '🌹 *Made By Akina* 🦚' })
+
+    }));
+    
+}
+if (Config.WORKTYPE == 'private') {
+
+    Asena.addCommand({ pattern: 'swatercolour ?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
+
+        if (match[1] === '') return await message.sendMessage(need);
+
+        var ttinullimage = await axios.get(`https://api.zeks.xyz/api/watercolour?apikey=cjxJIn9eDletRHac3CG6CdvGxFH&text1=AKINA%20SL&text2=${encodeURIComponent(match[1])}`, { responseType: 'arraybuffer' })
+
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '🌹 *Made By Akina* 🦚' })
+
+    }));
+}
+
+else if (Config.WORKTYPE == 'public') {
+
+    Asena.addCommand({ pattern: 'swatercolour ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
+
+        if (match[1] === '') return await message.sendMessage(need);
+
+        var ttinullimage = await axios.get(`https://api.zeks.xyz/api/watercolour?apikey=cjxJIn9eDletRHac3CG6CdvGxFH&text1=AKINA%20SL&text2=${encodeURIComponent(match[1])}`, { responseType: 'arraybuffer' })
+
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '🌹 *Made By Akina* 🦚' })
+
+    }));
+    
+}
+if (Config.WORKTYPE == 'private') {
+
+    Asena.addCommand({ pattern: 'scoding ?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
+
+        if (match[1] === '') return await message.sendMessage(need);
+
+        var ttinullimage = await axios.get(`https://api.zeks.xyz/api/matrix?apikey=cjxJIn9eDletRHac3CG6CdvGxFH&text=${encodeURIComponent(match[1])}`, { responseType: 'arraybuffer' })
+
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '🌹 *Made By Akina* 🦚' })
+
+    }));
+}
+
+else if (Config.WORKTYPE == 'public') {
+
+    Asena.addCommand({ pattern: 'rcoding ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
+
+        if (match[1] === '') return await message.sendMessage(need);
+
+        var ttinullimage = await axios.get(`https://api.zeks.xyz/api/matrix?apikey=cjxJIn9eDletRHac3CG6CdvGxFH&text=${encodeURIComponent(match[1])}`, { responseType: 'arraybuffer' })
+
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '🌹 *Made By Akina* 🦚' })
+
+    }));
+    
+}
+if (Config.WORKTYPE == 'private') {
+
+    Asena.addCommand({ pattern: 'swg ?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
+
+        if (match[1] === '') return await message.sendMessage(need);
+
+        var ttinullimage = await axios.get(`https://lolhuman.herokuapp.com/api/textprome2/wallgravity?apikey=f03ace0b7aae88a934af0216&text1=AKINA&text2=${encodeURIComponent(match[1])}`, { responseType: 'arraybuffer' })
+
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '🌹 *Made By Akina* 🦚' })
+
+    }));
+}
+
+else if (Config.WORKTYPE == 'public') {
+
+    Asena.addCommand({ pattern: 'swg ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
+
+        if (match[1] === '') return await message.sendMessage(need);
+
+        var ttinullimage = await axios.get(`https://lolhuman.herokuapp.com/api/textprome2/wallgravity?apikey=f03ace0b7aae88a934af0216&text1=AKINA&text2=${encodeURIComponent(match[1])}`, { responseType: 'arraybuffer' })
+
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '🌹 *Made By Akina* 🦚' })
+
+    }));
+    
+}
+if (Config.WORKTYPE == 'private') {
+
+    Asena.addCommand({ pattern: 'swolf ?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
+
+        if (match[1] === '') return await message.sendMessage(need);
+
+        var ttinullimage = await axios.get(`https://api.zeks.xyz/api/wolflogo?apikey=cjxJIn9eDletRHac3CG6CdvGxFH&text1=AKINA&text2=${encodeURIComponent(match[1])}`, { responseType: 'arraybuffer' })
+
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '🌹 *Made By Akina* 🦚' })
+
+    }));
+}
+
+else if (Config.WORKTYPE == 'public') {
+
+    Asena.addCommand({ pattern: 'swolf ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
+
+        if (match[1] === '') return await message.sendMessage(need);
+
+        var ttinullimage = await axios.get(`https://api.zeks.xyz/api/wolflogo?apikey=cjxJIn9eDletRHac3CG6CdvGxFH&text1=AKINA&text2=${encodeURIComponent(match[1])}`, { responseType: 'arraybuffer' })
+
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '🌹 *Made By Akina* 🦚' })
+
+    }));
+    
+}
+if (Config.WORKTYPE == 'private') {
+
+    Asena.addCommand({ pattern: 'swood ?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
+
+        if (match[1] === '') return await message.sendMessage(need);
+
+        var ttinullimage = await axios.get(`https://videfikri.com/api/textmaker/woodblock/?text=${encodeURIComponent(match[1])}`, { responseType: 'arraybuffer' })
+
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '🌹 *Made By Akina* 🦚' })
+
+    }));
+}
+
+else if (Config.WORKTYPE == 'public') {
+
+    Asena.addCommand({ pattern: 'swood ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
+
+        if (match[1] === '') return await message.sendMessage(need);
+
+        var ttinullimage = await axios.get(`https://videfikri.com/api/textmaker/woodblock/?text=${encodeURIComponent(match[1])}`, { responseType: 'arraybuffer' })
+
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '🌹 *Made By Akina* 🦚' })
 
     }));
     
