@@ -6,7 +6,7 @@
 <a href="#"><img title="Akina" src="https://img.shields.io/badge/Akina-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
 </p>
   <p align="center">
-<a href="https://github.com/Ameen-ahd"><img title="Author" src="https://img.shields.io/badge/Author-PYmaster-ft/Akina?color=blue&style=for-the-badge&logo=whatsapp"></a>
+<a href="https://github.com/PYMaster-"><img title="Author" src="https://img.shields.io/badge/Author-PYmaster-ft/Akina?color=blue&style=for-the-badge&logo=whatsapp"></a>
 </p>
 </div>
 <p align="center">
@@ -21,7 +21,7 @@ Project created by <a href="https://github.com/PYMaster-ft">Akina</a> to make it
 
   <p align="center">
   <a href="https://github.com/PYMaster-ft/Akina">
-    <img src="https://img.shields.io/github/repo-size/Ameen-ahd/Ambot?color=green&label=Repo%20total%20size&style=plastic">
+    <img src="https://img.shields.io/github/repo-size/PYMaster-ft/Akina?color=green&label=Repo%20total%20size&style=plastic">
 <p align="center">
 <a href="https://github.com/Ameen-ahd/followers"><img title="Followers" src="https://img.shields.io/github/followers/Ameen-ahd?color=red&style=flat-square"></a>
 <a href="https://github.com/Ameen-ahd/Ambot/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/Ameen-ahd/Ambot?color=red&style=flat-square"></a>
