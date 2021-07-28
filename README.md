@@ -34,7 +34,7 @@ Project created by <a href="https://github.com/PYMaster-ft">Akina</a> to make it
 Click WA logo to Join Support Group 👇
     <br>
 <br>
-  [![join](https://telegra.ph/file/47307443dfedb15c55b1c.jpg)](https://chat.whatsapp.com/J78xo5swpSp8k8MrSrdzDN)
+  [![join](https://telegra.ph/file/47307443dfedb15c55b1c.jpg)](#)
   <div align="center">
        
   [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=farhan-dqz&repo=PublicBot&theme=nightowl)](https://github.com/Ameen-ahd/PublicBot)
@@ -54,9 +54,9 @@ Click WA logo to Join Support Group 👇
 ## Developers
   <div align="center">
     
-  [![Ameen-ahd](https://github.com/Ameen-ahd.png?size=100)](https://github.com/Ameen-ahd) |  [![TOXIC4L!3N](https://github.com/Alien-alfa.png?size=100)](https://github.com/AI-VIKI) | [![afnanplk](https://github.com/afnanplk.png?size=100)](https://github.com/afnanplk) 
+  [![PYMaster-ft](https://github.com/Ameen-ahd.png?size=100)](https://github.com/PYMaster-ft) |  [![TOXIC4L!3N](https://github.com/Alien-alfa.png?size=100)](https://github.com/AI-VIKI) | [![afnanplk](https://github.com/afnanplk.png?size=100)](https://github.com/afnanplk) 
 ----|----|----
-[Ameen-ahd](https://github.com/Ameen-ahd)  | [TOXIC4L!3N](https://github.com/AI-VIKI) | [afnanplk](https://github.com/afnanplk)
+[PYMaster-ft](https://github.com/PYMaster-ft)  | [TOXIC4L!3N](https://github.com/AI-VIKI) | [afnanplk](https://github.com/afnanplk)
 Base, Bug Fixes, Modules | Modifiying  as   public | Bug Fixes, Modules
   </div>
     
