@@ -1,4 +1,4 @@
-FROM PYMaster/Akina:latest
+FROM fusuf/whatsasena:latest
 
 RUN git clone https://github.com/PYMaster-ft/Akina /root/WhatsAsenaDuplicated
 WORKDIR /root/WhatsAsenaDuplicated/
