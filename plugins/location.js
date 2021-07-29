@@ -3,14 +3,14 @@ Telegram: t.me/phaticusthiccy
 Instagram: www.instagram.com/kyrie.baran
 */
 
-const Akina = require('../events');
+const Asena = require('../events');
 const {MessageType, GroupSettingChange} = require('@adiwajshing/baileys'); // Boredom 😬
 
 const Language = require('../language');
 const Lang = Language.getString('locate'); // Language supp. 😉
 
 
-    Akina.addCommand({pattern: 'locate', fromMe: true, desc: Lang.L_DESC, warn: Lang.L_WARN}, (async (message, match) => {
+    Asena.addCommand({pattern: 'locate', fromMe: true, desc: Lang.L_DESC, warn: Lang.L_WARN}, (async (message, match) => {
 
         var r_text = new Array ();
         r_text[0] = "degreesLatitude: 24.121231, degreesLongitude: 55.1121221"; // Actually, I don't know where is this place..

@@ -1,5 +1,5 @@
 /*
-Nekobin for WhatsAkina - W4RR10R
+Nekobin for WhatsAsena - W4RR10R
 
 Licensed under the GPL-3.0 License;
 you may not use this file except in compliance with the License.
@@ -7,7 +7,7 @@ you may not use this file except in compliance with the License.
 WhatsAsena - Yusuf Usta
 */
 
-const Akina = require('../events');
+const Asena = require('../events');
 const {MessageType} = require('@adiwajshing/baileys');
 const got = require('got');
 const Config = require('../config');
@@ -17,7 +17,7 @@ const Lang = Language.getString('nekobin');
 
 if (Config.WORKTYPE == 'private') {
 
-    Akina.addCommand({pattern: 'neko', fromMe: true, desc: Lang.NEKO_DESC}, (async (message, match) => {
+    Asena.addCommand({pattern: 'neko', fromMe: true, desc: Lang.NEKO_DESC}, (async (message, match) => {
 
         if (!message.reply_message) return await message.sendMessage(Lang.NEED_REPLY);
         if (!message.reply_message.text) return await message.sendMessage(Lang.MUST_TEXT);
@@ -36,7 +36,7 @@ if (Config.WORKTYPE == 'private') {
 }
 else if (Config.WORKTYPE == 'public') {
 
-    Akina.addCommand({pattern: 'neko', fromMe: false, desc: Lang.NEKO_DESC}, (async (message, match) => {
+    Asena.addCommand({pattern: 'neko', fromMe: false, desc: Lang.NEKO_DESC}, (async (message, match) => {
 
         if (!message.reply_message) return await message.sendMessage(Lang.NEED_REPLY);
         if (!message.reply_message.text) return await message.sendMessage(Lang.MUST_TEXT);
@@ -52,7 +52,7 @@ else if (Config.WORKTYPE == 'public') {
         }
        
     }));
-    Akina.addCommand({pattern: 'neko', fromMe: true, desc: Lang.NEKO_DESC, dontAddCommandList: true}, (async (message, match) => {
+    Asena.addCommand({pattern: 'neko', fromMe: true, desc: Lang.NEKO_DESC, dontAddCommandList: true}, (async (message, match) => {
 
         if (!message.reply_message) return await message.sendMessage(Lang.NEED_REPLY);
         if (!message.reply_message.text) return await message.sendMessage(Lang.MUST_TEXT);
