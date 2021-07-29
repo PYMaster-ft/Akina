@@ -7,7 +7,7 @@ WhatsAsena - Yusuf Usta
 */
 
 /*
-const Asena = require('../events');
+const Akina = require('../events');
 const Config = require('../config');
 const {MessageType} = require('@adiwajshing/baileys');
 const {LydiaDB} = require('./sql/lydia');

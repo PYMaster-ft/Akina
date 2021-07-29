@@ -3,18 +3,18 @@ Telegram: t.me/phaticusthiccy
 Instagram: www.instagram.com/kyrie.baran
 */
 
-const Asena = require('../events');
+const Akina = require('../events');
 const {WAConnection, MessageOptions, MessageType, Mimetype, Presence} = require('@adiwajshing/baileys');
 const fs = require('fs');
 const axios = require('axios');
 
-Asena.addCommand({pattern: 'logopk', fromMe: false, desc: 'more logo commands'}, (async (message, match) => {
+Akina.addCommand({pattern: 'logopk', fromMe: false, desc: 'more logo commands'}, (async (message, match) => {
   
   await message.sendMessage('📱command : *.break*\n💎desc : change your text to wall breaking image.\n\n📱command : *.pubg*\n💎desc : change your text to pung image.\n\n📱command : *.phub*\n💎desc : change your text into pornhub logo.\n🏷️example : .phub BOT;X.\n\n📱command : *.blood*\n💎desc : change your text frozen blood on a glass\n\n📱command : *.1917*\n💎desc : change your text to a 1917 model image\n\n📱command : *.avengers*\n💎desc : change your text to avangers logo\n🏷️example : .avengers its;BOT X.\n\n📱command : *.boxed*\n💎desc : change your text to 3d boxed design\n\n📱command : *.window*\n💎desc : write your text on a foggy window \n\n📱command : .skywal\n💎desc : random sky wallpaper with given text\n\n📱command : *.holo*\n💎desc : change your text to holo design\n\n📱command : *.drop*\n💎desc : change your text into rain water drop.n\n📱command : *.flame*\n💎desc : text with fire effect.\n\n📱command : *.vtext*\n💎desc : text to video.\n\n📱command : *.ptext*\n💎desc : text to video.\n\n📱command : *.colortext*\n💎desc : text to colorfull video\n\n📱command : *.cloud*\n💎desc : text on cloud\n\n📱command : *.2ninja*\n💎desc : random ninja logo with given name.');
   
 }));
 
-Asena.addCommand({pattern: 'sky ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
+Akina.addCommand({pattern: 'sky ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_WORD);
 
@@ -24,7 +24,7 @@ Asena.addCommand({pattern: 'sky ?(.*)', fromMe: false, dontAddCommandList: true}
 
 }));
   
-  Asena.addCommand({pattern: 'phub ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
+  Akina.addCommand({pattern: 'phub ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
   
@@ -41,7 +41,7 @@ Asena.addCommand({pattern: 'sky ?(.*)', fromMe: false, dontAddCommandList: true}
 
     }));
   
-    Asena.addCommand({pattern: 'pubg ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
+    Akina.addCommand({pattern: 'pubg ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
   
@@ -57,7 +57,7 @@ Asena.addCommand({pattern: 'sky ?(.*)', fromMe: false, dontAddCommandList: true}
    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: '🌹 *Made By Akina* 🦚'})
 
     }));
-    Asena.addCommand({pattern: 'blood ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
+    Akina.addCommand({pattern: 'blood ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
 
@@ -67,7 +67,7 @@ Asena.addCommand({pattern: 'sky ?(.*)', fromMe: false, dontAddCommandList: true}
 
     }));
   
-  Asena.addCommand({pattern: '1917 ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
+  Akina.addCommand({pattern: '1917 ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
 
@@ -77,7 +77,7 @@ Asena.addCommand({pattern: 'sky ?(.*)', fromMe: false, dontAddCommandList: true}
 
     }));
   
-   Asena.addCommand({pattern: 'tkt ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
+   Akina.addCommand({pattern: 'tkt ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
   
@@ -95,7 +95,7 @@ Asena.addCommand({pattern: 'sky ?(.*)', fromMe: false, dontAddCommandList: true}
     }));
   
    
-         Asena.addCommand({pattern: 'cs ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
+         Akina.addCommand({pattern: 'cs ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
 
@@ -105,7 +105,7 @@ Asena.addCommand({pattern: 'sky ?(.*)', fromMe: false, dontAddCommandList: true}
 
 }));
   
-  Asena.addCommand({pattern: 'sand ?(.*)', fromMe: false, dontAddCommandList: false, desc: 'add your text to random freefire logo'}, (async (message, match) => {
+  Akina.addCommand({pattern: 'sand ?(.*)', fromMe: false, dontAddCommandList: false, desc: 'add your text to random freefire logo'}, (async (message, match) => {
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
 
@@ -115,7 +115,7 @@ Asena.addCommand({pattern: 'sky ?(.*)', fromMe: false, dontAddCommandList: true}
 
 }));
   
-  Asena.addCommand({pattern: 'window ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
+  Akina.addCommand({pattern: 'window ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
   
@@ -125,7 +125,7 @@ Asena.addCommand({pattern: 'sky ?(.*)', fromMe: false, dontAddCommandList: true}
 
     }));
   
-   Asena.addCommand({pattern: 'skywal ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
+   Akina.addCommand({pattern: 'skywal ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_WORD);
 
@@ -135,7 +135,7 @@ Asena.addCommand({pattern: 'sky ?(.*)', fromMe: false, dontAddCommandList: true}
 
 }));
   
-   Asena.addCommand({pattern: 'holo ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
+   Akina.addCommand({pattern: 'holo ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
 
@@ -145,7 +145,7 @@ Asena.addCommand({pattern: 'sky ?(.*)', fromMe: false, dontAddCommandList: true}
 
     }));
 
-    Asena.addCommand({pattern: '2ninja ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
+    Akina.addCommand({pattern: '2ninja ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_WORD);
 
@@ -155,7 +155,7 @@ Asena.addCommand({pattern: 'sky ?(.*)', fromMe: false, dontAddCommandList: true}
 
    }));
   
-   Asena.addCommand({pattern: 'light ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
+   Akina.addCommand({pattern: 'light ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
 
@@ -164,7 +164,7 @@ Asena.addCommand({pattern: 'sky ?(.*)', fromMe: false, dontAddCommandList: true}
     await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: '🌹 *Made By Akina* 🦚'})
 
     }));
-   Asena.addCommand({pattern: 'cloud ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
+   Akina.addCommand({pattern: 'cloud ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
 
@@ -174,7 +174,7 @@ Asena.addCommand({pattern: 'sky ?(.*)', fromMe: false, dontAddCommandList: true}
 
     }));
 
- Asena.addCommand({pattern: 'emo ?(.*)', fromMe: false, dontAddCommandList: true, desc: 'emogi to png'}, (async (message, match) => {
+ Akina.addCommand({pattern: 'emo ?(.*)', fromMe: false, dontAddCommandList: true, desc: 'emogi to png'}, (async (message, match) => {
 
       if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_WORD, MessageType.text);
         
@@ -191,7 +191,7 @@ Asena.addCommand({pattern: 'sky ?(.*)', fromMe: false, dontAddCommandList: true}
   
     }));
 
-    Asena.addCommand({pattern: 'flame ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
+    Akina.addCommand({pattern: 'flame ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
 
@@ -201,7 +201,7 @@ Asena.addCommand({pattern: 'sky ?(.*)', fromMe: false, dontAddCommandList: true}
 
     }));
 
-    Asena.addCommand({pattern: 'vtext ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
+    Akina.addCommand({pattern: 'vtext ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
 
@@ -211,7 +211,7 @@ Asena.addCommand({pattern: 'sky ?(.*)', fromMe: false, dontAddCommandList: true}
 
     }));
 
-    Asena.addCommand({pattern: 'ptext ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
+    Akina.addCommand({pattern: 'ptext ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
 
@@ -221,7 +221,7 @@ Asena.addCommand({pattern: 'sky ?(.*)', fromMe: false, dontAddCommandList: true}
 
     }));
 
-    Asena.addCommand({pattern: 'colortext ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
+    Akina.addCommand({pattern: 'colortext ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
 

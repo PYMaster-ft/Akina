@@ -11,15 +11,16 @@ const Config = require('../config');
 const {MessageType} = require('@adiwajshing/baileys');
 
 const Language = require('../language');
+const Akina = require('../Akina');
 const Lang = Language.getString('_asena');
 
 if (Config.WORKTYPE == 'private') {
 
-    Asena.addCommand({pattern: 'akina ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+    Akina.addCommand({pattern: 'akina ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
 
         var CMD_HELP = '';
         if (match[1] === '') {
-            Asena.commands.map(
+            Akina.commands.map(
                 async (command) =>  {
                     if (command.dontAddCommandList || command.pattern === undefined) return;
                     try {
@@ -67,7 +68,7 @@ if (Config.WORKTYPE == 'private') {
             );    
         } else {
             var CMD_HELP = '';
-            Asena.commands.map(
+            Akina.commands.map(
                 async (command) =>  {
                     if (command.dontAddCommandList || command.pattern === undefined) return;
                     try {
@@ -123,11 +124,11 @@ if (Config.WORKTYPE == 'private') {
 }
 else if (Config.WORKTYPE == 'public') {
 
-    Asena.addCommand({pattern: 'akina ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
+    Akina.addCommand({pattern: 'akina ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
 
         var CMD_HELP = '';
         if (match[1] === '') {
-            Asena.commands.map(
+            Akina.commands.map(
                 async (command) =>  {
                     if (command.dontAddCommandList || command.pattern === undefined) return;
                     try {
@@ -175,7 +176,7 @@ else if (Config.WORKTYPE == 'public') {
             );    
         } else {
             var CMD_HELP = '';
-            Asena.commands.map(
+            Akina.commands.map(
                 async (command) =>  {
                     if (command.dontAddCommandList || command.pattern === undefined) return;
                     try {

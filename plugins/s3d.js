@@ -1,7 +1,7 @@
 /* # Exclusively from  AKINA
 */
 
-const Asena = require('../events');
+const Akina = require('../events');
 const { MessageType, MessageOptions, Mimetype } = require('@adiwajshing/baileys');
 const fs = require('fs');
 const axios = require('axios');
@@ -10,7 +10,7 @@ const need = "type some word after command\n🗡🗡"
 
 if (Config.WORKTYPE == 'private') {
 
-    Asena.addCommand({ pattern: 's3d ?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
+    Akina.addCommand({ pattern: 's3d ?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -23,7 +23,7 @@ if (Config.WORKTYPE == 'private') {
 
 else if (Config.WORKTYPE == 'public') {
 
-    Asena.addCommand({ pattern: 's3d ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
+    Akina.addCommand({ pattern: 's3d ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -37,7 +37,7 @@ else if (Config.WORKTYPE == 'public') {
 
 if (Config.WORKTYPE == 'private') {
 
-    Asena.addCommand({ pattern: 's8bit?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
+    Akina.addCommand({ pattern: 's8bit?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -50,7 +50,7 @@ if (Config.WORKTYPE == 'private') {
 
 else if (Config.WORKTYPE == 'public') {
 
-    Asena.addCommand({ pattern: 's8bit ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
+    Akina.addCommand({ pattern: 's8bit ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -65,7 +65,7 @@ else if (Config.WORKTYPE == 'public') {
 
 if (Config.WORKTYPE == 'private') {
 
-    Asena.addCommand({ pattern: 'sal ?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
+    Akina.addCommand({ pattern: 'sal ?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -78,7 +78,7 @@ if (Config.WORKTYPE == 'private') {
 
 else if (Config.WORKTYPE == 'public') {
 
-    Asena.addCommand({ pattern: 'sal ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
+    Akina.addCommand({ pattern: 'sal ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -93,7 +93,7 @@ else if (Config.WORKTYPE == 'public') {
 
 if (Config.WORKTYPE == 'private') {
 
-    Asena.addCommand({ pattern: 'sanony?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
+    Akina.addCommand({ pattern: 'sanony?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -106,7 +106,7 @@ if (Config.WORKTYPE == 'private') {
 
 else if (Config.WORKTYPE == 'public') {
 
-    Asena.addCommand({ pattern: 'sanony ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
+    Akina.addCommand({ pattern: 'sanony ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -122,7 +122,7 @@ else if (Config.WORKTYPE == 'public') {
 
 if (Config.WORKTYPE == 'private') {
 
-    Asena.addCommand({ pattern: 'saveng ?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
+    Akina.addCommand({ pattern: 'saveng ?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -135,7 +135,7 @@ if (Config.WORKTYPE == 'private') {
 
 else if (Config.WORKTYPE == 'public') {
 
-    Asena.addCommand({ pattern: 'saveng ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
+    Akina.addCommand({ pattern: 'saveng ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -150,7 +150,7 @@ else if (Config.WORKTYPE == 'public') {
 
 if (Config.WORKTYPE == 'private') {
 
-    Asena.addCommand({ pattern: 'sbneon ?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
+    Akina.addCommand({ pattern: 'sbneon ?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -163,7 +163,7 @@ if (Config.WORKTYPE == 'private') {
 
 else if (Config.WORKTYPE == 'public') {
 
-    Asena.addCommand({ pattern: 'sbneon ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
+    Akina.addCommand({ pattern: 'sbneon ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -178,7 +178,7 @@ else if (Config.WORKTYPE == 'public') {
 
 if (Config.WORKTYPE == 'private') {
 
-    Asena.addCommand({ pattern: 'sbokeh ?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
+    Akina.addCommand({ pattern: 'sbokeh ?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -191,7 +191,7 @@ if (Config.WORKTYPE == 'private') {
 
 else if (Config.WORKTYPE == 'public') {
 
-    Asena.addCommand({ pattern: 'sbokeh ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
+    Akina.addCommand({ pattern: 'sbokeh ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -207,7 +207,7 @@ else if (Config.WORKTYPE == 'public') {
 
 if (Config.WORKTYPE == 'private') {
 
-    Asena.addCommand({ pattern: 'sbook ?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
+    Akina.addCommand({ pattern: 'sbook ?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -220,7 +220,7 @@ if (Config.WORKTYPE == 'private') {
 
 else if (Config.WORKTYPE == 'public') {
 
-    Asena.addCommand({ pattern: 'sbook ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
+    Akina.addCommand({ pattern: 'sbook ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -234,7 +234,7 @@ else if (Config.WORKTYPE == 'public') {
 
 if (Config.WORKTYPE == 'private') {
 
-    Asena.addCommand({ pattern: 'sbp ?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
+    Akina.addCommand({ pattern: 'sbp ?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -247,7 +247,7 @@ if (Config.WORKTYPE == 'private') {
 
 else if (Config.WORKTYPE == 'public') {
 
-    Asena.addCommand({ pattern: 'sbp ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
+    Akina.addCommand({ pattern: 'sbp ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -261,7 +261,7 @@ else if (Config.WORKTYPE == 'public') {
 
 if (Config.WORKTYPE == 'private') {
 
-    Asena.addCommand({ pattern: 'sbrand ?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
+    Akina.addCommand({ pattern: 'sbrand ?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -274,7 +274,7 @@ if (Config.WORKTYPE == 'private') {
 
 else if (Config.WORKTYPE == 'public') {
 
-    Asena.addCommand({ pattern: 'sbrand ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
+    Akina.addCommand({ pattern: 'sbrand ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -289,7 +289,7 @@ else if (Config.WORKTYPE == 'public') {
 
 if (Config.WORKTYPE == 'private') {
 
-    Asena.addCommand({ pattern: 'sbreakwall ?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
+    Akina.addCommand({ pattern: 'sbreakwall ?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -302,7 +302,7 @@ if (Config.WORKTYPE == 'private') {
 
 else if (Config.WORKTYPE == 'public') {
 
-    Asena.addCommand({ pattern: 'sbreakwall ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
+    Akina.addCommand({ pattern: 'sbreakwall ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -317,7 +317,7 @@ else if (Config.WORKTYPE == 'public') {
 
 if (Config.WORKTYPE == 'private') {
 
-    Asena.addCommand({ pattern: 'scandy ?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
+    Akina.addCommand({ pattern: 'scandy ?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -330,7 +330,7 @@ if (Config.WORKTYPE == 'private') {
 
 else if (Config.WORKTYPE == 'public') {
 
-    Asena.addCommand({ pattern: 'scandy ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
+    Akina.addCommand({ pattern: 'scandy ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -345,7 +345,7 @@ else if (Config.WORKTYPE == 'public') {
 
 if (Config.WORKTYPE == 'private') {
 
-    Asena.addCommand({ pattern: 'scc2 ?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
+    Akina.addCommand({ pattern: 'scc2 ?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -358,7 +358,7 @@ if (Config.WORKTYPE == 'private') {
 
 else if (Config.WORKTYPE == 'public') {
 
-    Asena.addCommand({ pattern: 'scc2 ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
+    Akina.addCommand({ pattern: 'scc2 ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -373,7 +373,7 @@ else if (Config.WORKTYPE == 'public') {
 
 if (Config.WORKTYPE == 'private') {
 
-    Asena.addCommand({ pattern: 'scl ?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
+    Akina.addCommand({ pattern: 'scl ?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -386,7 +386,7 @@ if (Config.WORKTYPE == 'private') {
 
 else if (Config.WORKTYPE == 'public') {
 
-    Asena.addCommand({ pattern: 'scl ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
+    Akina.addCommand({ pattern: 'scl ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -399,7 +399,7 @@ else if (Config.WORKTYPE == 'public') {
 
 if (Config.WORKTYPE == 'private') {
 
-    Asena.addCommand({ pattern: 'scrismes ?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
+    Akina.addCommand({ pattern: 'scrismes ?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -412,7 +412,7 @@ if (Config.WORKTYPE == 'private') {
 
 else if (Config.WORKTYPE == 'public') {
 
-    Asena.addCommand({ pattern: 'scrismes ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
+    Akina.addCommand({ pattern: 'scrismes ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -427,7 +427,7 @@ else if (Config.WORKTYPE == 'public') {
 
 if (Config.WORKTYPE == 'private') {
 
-    Asena.addCommand({ pattern: 'sd2a ?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
+    Akina.addCommand({ pattern: 'sd2a ?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -440,7 +440,7 @@ if (Config.WORKTYPE == 'private') {
 
 else if (Config.WORKTYPE == 'public') {
 
-    Asena.addCommand({ pattern: 'sd2a ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
+    Akina.addCommand({ pattern: 'sd2a ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -455,7 +455,7 @@ else if (Config.WORKTYPE == 'public') {
 
 if (Config.WORKTYPE == 'private') {
 
-    Asena.addCommand({ pattern: 'sdneon ?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
+    Akina.addCommand({ pattern: 'sdneon ?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -468,7 +468,7 @@ if (Config.WORKTYPE == 'private') {
 
 else if (Config.WORKTYPE == 'public') {
 
-    Asena.addCommand({ pattern: 'sdneon ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
+    Akina.addCommand({ pattern: 'sdneon ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -482,7 +482,7 @@ else if (Config.WORKTYPE == 'public') {
 
 if (Config.WORKTYPE == 'private') {
 
-    Asena.addCommand({ pattern: 'sdropwater ?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
+    Akina.addCommand({ pattern: 'sdropwater ?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -495,7 +495,7 @@ if (Config.WORKTYPE == 'private') {
 
 else if (Config.WORKTYPE == 'public') {
 
-    Asena.addCommand({ pattern: 'sdropwater ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
+    Akina.addCommand({ pattern: 'sdropwater ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -510,7 +510,7 @@ else if (Config.WORKTYPE == 'public') {
 
 if (Config.WORKTYPE == 'private') {
 
-    Asena.addCommand({ pattern: 'sepep ?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
+    Akina.addCommand({ pattern: 'sepep ?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -523,7 +523,7 @@ if (Config.WORKTYPE == 'private') {
 
 else if (Config.WORKTYPE == 'public') {
 
-    Asena.addCommand({ pattern: 'sepep ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
+    Akina.addCommand({ pattern: 'sepep ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -538,7 +538,7 @@ else if (Config.WORKTYPE == 'public') {
 
 if (Config.WORKTYPE == 'private') {
 
-    Asena.addCommand({ pattern: 'sfire ?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
+    Akina.addCommand({ pattern: 'sfire ?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -551,7 +551,7 @@ if (Config.WORKTYPE == 'private') {
 
 else if (Config.WORKTYPE == 'public') {
 
-    Asena.addCommand({ pattern: 'sfire ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
+    Akina.addCommand({ pattern: 'sfire ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -566,7 +566,7 @@ else if (Config.WORKTYPE == 'public') {
 
 if (Config.WORKTYPE == 'private') {
 
-    Asena.addCommand({ pattern: 'sgalaxy ?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
+    Akina.addCommand({ pattern: 'sgalaxy ?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -579,7 +579,7 @@ if (Config.WORKTYPE == 'private') {
 
 else if (Config.WORKTYPE == 'public') {
 
-    Asena.addCommand({ pattern: 'sgalaxy ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
+    Akina.addCommand({ pattern: 'sgalaxy ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -594,7 +594,7 @@ else if (Config.WORKTYPE == 'public') {
 
 if (Config.WORKTYPE == 'private') {
 
-    Asena.addCommand({ pattern: 'sgb ?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
+    Akina.addCommand({ pattern: 'sgb ?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -607,7 +607,7 @@ if (Config.WORKTYPE == 'private') {
 
 else if (Config.WORKTYPE == 'public') {
 
-    Asena.addCommand({ pattern: 'sgb ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
+    Akina.addCommand({ pattern: 'sgb ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -622,7 +622,7 @@ else if (Config.WORKTYPE == 'public') {
 
 if (Config.WORKTYPE == 'private') {
 
-    Asena.addCommand({ pattern: 'sglow ?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
+    Akina.addCommand({ pattern: 'sglow ?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -635,7 +635,7 @@ if (Config.WORKTYPE == 'private') {
 
 else if (Config.WORKTYPE == 'public') {
 
-    Asena.addCommand({ pattern: 'sglow ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
+    Akina.addCommand({ pattern: 'sglow ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -651,7 +651,7 @@ else if (Config.WORKTYPE == 'public') {
 
 if (Config.WORKTYPE == 'private') {
 
-    Asena.addCommand({ pattern: 'sgplay ?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
+    Akina.addCommand({ pattern: 'sgplay ?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -664,7 +664,7 @@ if (Config.WORKTYPE == 'private') {
 
 else if (Config.WORKTYPE == 'public') {
 
-    Asena.addCommand({ pattern: 'sgplay ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
+    Akina.addCommand({ pattern: 'sgplay ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -679,7 +679,7 @@ else if (Config.WORKTYPE == 'public') {
 
 if (Config.WORKTYPE == 'private') {
 
-    Asena.addCommand({ pattern: 'sgtext ?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
+    Akina.addCommand({ pattern: 'sgtext ?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -692,7 +692,7 @@ if (Config.WORKTYPE == 'private') {
 
 else if (Config.WORKTYPE == 'public') {
 
-    Asena.addCommand({ pattern: 'sgtext ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
+    Akina.addCommand({ pattern: 'sgtext ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -707,7 +707,7 @@ else if (Config.WORKTYPE == 'public') {
 
 if (Config.WORKTYPE == 'private') {
 
-    Asena.addCommand({ pattern: 'shorror ?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
+    Akina.addCommand({ pattern: 'shorror ?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -720,7 +720,7 @@ if (Config.WORKTYPE == 'private') {
 
 else if (Config.WORKTYPE == 'public') {
 
-    Asena.addCommand({ pattern: 'shorror ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
+    Akina.addCommand({ pattern: 'shorror ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -735,7 +735,7 @@ else if (Config.WORKTYPE == 'public') {
 
 if (Config.WORKTYPE == 'private') {
 
-    Asena.addCommand({ pattern: 'sht ?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
+    Akina.addCommand({ pattern: 'sht ?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -748,7 +748,7 @@ if (Config.WORKTYPE == 'private') {
 
 else if (Config.WORKTYPE == 'public') {
 
-    Asena.addCommand({ pattern: 'sht ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
+    Akina.addCommand({ pattern: 'sht ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -762,7 +762,7 @@ else if (Config.WORKTYPE == 'public') {
 
 if (Config.WORKTYPE == 'private') {
 
-    Asena.addCommand({ pattern: 'sleave ?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
+    Akina.addCommand({ pattern: 'sleave ?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -775,7 +775,7 @@ if (Config.WORKTYPE == 'private') {
 
 else if (Config.WORKTYPE == 'public') {
 
-    Asena.addCommand({ pattern: 'sleave ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
+    Akina.addCommand({ pattern: 'sleave ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -789,7 +789,7 @@ else if (Config.WORKTYPE == 'public') {
 
 if (Config.WORKTYPE == 'private') {
 
-    Asena.addCommand({ pattern: 'slion ?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
+    Akina.addCommand({ pattern: 'slion ?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -802,7 +802,7 @@ if (Config.WORKTYPE == 'private') {
 
 else if (Config.WORKTYPE == 'public') {
 
-    Asena.addCommand({ pattern: 'slion ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
+    Akina.addCommand({ pattern: 'slion ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -818,7 +818,7 @@ if (Config.WORKTYPE == 'private') {
 
 
         
-        Asena.addCommand({ pattern: 'slogo ?(.*)', fromMe: true,dontAddCommandList: true}, (async (message, match) => {
+        Akina.addCommand({ pattern: 'slogo ?(.*)', fromMe: true,dontAddCommandList: true}, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(Lang.NEED_WORD);
 
@@ -831,7 +831,7 @@ if (Config.WORKTYPE == 'private') {
 
 else if (Config.WORKTYPE == 'public') {
         
-        Asena.addCommand({ pattern: 'slogo ?(.*)', fromMe: false,dontAddCommandList: true }, (async (message, match) => {
+        Akina.addCommand({ pattern: 'slogo ?(.*)', fromMe: false,dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(Lang.NEED_WORD);
 
@@ -844,7 +844,7 @@ else if (Config.WORKTYPE == 'public') {
 
 if (Config.WORKTYPE == 'private') {
 
-    Asena.addCommand({ pattern: 'slol ?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
+    Akina.addCommand({ pattern: 'slol ?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -857,7 +857,7 @@ if (Config.WORKTYPE == 'private') {
 
 else if (Config.WORKTYPE == 'public') {
 
-    Asena.addCommand({ pattern: 'slol ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
+    Akina.addCommand({ pattern: 'slol ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -871,7 +871,7 @@ else if (Config.WORKTYPE == 'public') {
 
 if (Config.WORKTYPE == 'private') {
 
-    Asena.addCommand({ pattern: 'slr ?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
+    Akina.addCommand({ pattern: 'slr ?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -884,7 +884,7 @@ if (Config.WORKTYPE == 'private') {
 
 else if (Config.WORKTYPE == 'public') {
 
-    Asena.addCommand({ pattern: 'slr ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
+    Akina.addCommand({ pattern: 'slr ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -897,7 +897,7 @@ else if (Config.WORKTYPE == 'public') {
 }
 if (Config.WORKTYPE == 'private') {
 
-    Asena.addCommand({ pattern: 'spaper ?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
+    Akina.addCommand({ pattern: 'spaper ?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -910,7 +910,7 @@ if (Config.WORKTYPE == 'private') {
 
 else if (Config.WORKTYPE == 'public') {
 
-    Asena.addCommand({ pattern: 'spaper ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
+    Akina.addCommand({ pattern: 'spaper ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -923,7 +923,7 @@ else if (Config.WORKTYPE == 'public') {
 }
 if (Config.WORKTYPE == 'private') {
 
-    Asena.addCommand({ pattern: 'spark ?(.*)', fromMe: true,dontAddCommandList: true}, (async (message, match) => {
+    Akina.addCommand({ pattern: 'spark ?(.*)', fromMe: true,dontAddCommandList: true}, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(lol);
 
@@ -936,7 +936,7 @@ if (Config.WORKTYPE == 'private') {
 
 else if (Config.WORKTYPE == 'public') {
 
-    Asena.addCommand({ pattern: 'spark ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
+    Akina.addCommand({ pattern: 'spark ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(lol);
 
@@ -949,7 +949,7 @@ else if (Config.WORKTYPE == 'public') {
 }
 if (Config.WORKTYPE == 'private') {
 
-    Asena.addCommand({ pattern: 'sphlogo ?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
+    Akina.addCommand({ pattern: 'sphlogo ?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -962,7 +962,7 @@ if (Config.WORKTYPE == 'private') {
 
 else if (Config.WORKTYPE == 'public') {
 
-    Asena.addCommand({ pattern: 'sphlogo ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
+    Akina.addCommand({ pattern: 'sphlogo ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -975,7 +975,7 @@ else if (Config.WORKTYPE == 'public') {
 }
 if (Config.WORKTYPE == 'private') {
 
-    Asena.addCommand({ pattern: 'spubg ?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
+    Akina.addCommand({ pattern: 'spubg ?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -988,7 +988,7 @@ if (Config.WORKTYPE == 'private') {
 
 else if (Config.WORKTYPE == 'public') {
 
-    Asena.addCommand({ pattern: 'spubg ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
+    Akina.addCommand({ pattern: 'spubg ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -1001,7 +1001,7 @@ else if (Config.WORKTYPE == 'public') {
 }
 if (Config.WORKTYPE == 'private') {
 
-    Asena.addCommand({ pattern: 'ssandw ?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
+    Akina.addCommand({ pattern: 'ssandw ?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -1014,7 +1014,7 @@ if (Config.WORKTYPE == 'private') {
 
 else if (Config.WORKTYPE == 'public') {
 
-    Asena.addCommand({ pattern: 'ssandw ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
+    Akina.addCommand({ pattern: 'ssandw ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -1027,7 +1027,7 @@ else if (Config.WORKTYPE == 'public') {
 }
 if (Config.WORKTYPE == 'private') {
 
-    Asena.addCommand({ pattern: 'ssilk ?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
+    Akina.addCommand({ pattern: 'ssilk ?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -1040,7 +1040,7 @@ if (Config.WORKTYPE == 'private') {
 
 else if (Config.WORKTYPE == 'public') {
 
-    Asena.addCommand({ pattern: 'ssilk ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
+    Akina.addCommand({ pattern: 'ssilk ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -1053,7 +1053,7 @@ else if (Config.WORKTYPE == 'public') {
 }
 if (Config.WORKTYPE == 'private') {
 
-    Asena.addCommand({ pattern: 'ssky ?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
+    Akina.addCommand({ pattern: 'ssky ?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -1066,7 +1066,7 @@ if (Config.WORKTYPE == 'private') {
 
 else if (Config.WORKTYPE == 'public') {
 
-    Asena.addCommand({ pattern: 'ssky ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
+    Akina.addCommand({ pattern: 'ssky ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -1079,7 +1079,7 @@ else if (Config.WORKTYPE == 'public') {
 }
 if (Config.WORKTYPE == 'private') {
 
-    Asena.addCommand({ pattern: 'ssmoke ?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
+    Akina.addCommand({ pattern: 'ssmoke ?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -1092,7 +1092,7 @@ if (Config.WORKTYPE == 'private') {
 
 else if (Config.WORKTYPE == 'public') {
 
-    Asena.addCommand({ pattern: 'ssmoke ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
+    Akina.addCommand({ pattern: 'ssmoke ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -1105,7 +1105,7 @@ else if (Config.WORKTYPE == 'public') {
 }
 if (Config.WORKTYPE == 'private') {
 
-    Asena.addCommand({ pattern: 'ssn ?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
+    Akina.addCommand({ pattern: 'ssn ?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -1118,7 +1118,7 @@ if (Config.WORKTYPE == 'private') {
 
 else if (Config.WORKTYPE == 'public') {
 
-    Asena.addCommand({ pattern: 'ssn ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
+    Akina.addCommand({ pattern: 'ssn ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -1131,7 +1131,7 @@ else if (Config.WORKTYPE == 'public') {
 }
 if (Config.WORKTYPE == 'private') {
 
-    Asena.addCommand({ pattern: 'sspace ?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
+    Akina.addCommand({ pattern: 'sspace ?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -1144,7 +1144,7 @@ if (Config.WORKTYPE == 'private') {
 
 else if (Config.WORKTYPE == 'public') {
 
-    Asena.addCommand({ pattern: 'sspace ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
+    Akina.addCommand({ pattern: 'sspace ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -1157,7 +1157,7 @@ else if (Config.WORKTYPE == 'public') {
 }
 if (Config.WORKTYPE == 'private') {
 
-    Asena.addCommand({ pattern: 'ssplay ?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
+    Akina.addCommand({ pattern: 'ssplay ?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -1170,7 +1170,7 @@ if (Config.WORKTYPE == 'private') {
 
 else if (Config.WORKTYPE == 'public') {
 
-    Asena.addCommand({ pattern: 'ssplay ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
+    Akina.addCommand({ pattern: 'ssplay ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -1183,7 +1183,7 @@ else if (Config.WORKTYPE == 'public') {
 }
 if (Config.WORKTYPE == 'private') {
 
-    Asena.addCommand({ pattern: 'sst ?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
+    Akina.addCommand({ pattern: 'sst ?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -1196,7 +1196,7 @@ if (Config.WORKTYPE == 'private') {
 
 else if (Config.WORKTYPE == 'public') {
 
-    Asena.addCommand({ pattern: 'sst ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
+    Akina.addCommand({ pattern: 'sst ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -1209,7 +1209,7 @@ else if (Config.WORKTYPE == 'public') {
 }
 if (Config.WORKTYPE == 'private') {
 
-    Asena.addCommand({ pattern: 'stlogo ?(.*)', fromMe: true,dontAddCommandList: true}, (async (message, match) => {
+    Akina.addCommand({ pattern: 'stlogo ?(.*)', fromMe: true,dontAddCommandList: true}, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(lol);
 
@@ -1222,7 +1222,7 @@ if (Config.WORKTYPE == 'private') {
 
 else if (Config.WORKTYPE == 'public') {
 
-    Asena.addCommand({ pattern: 'stlogo ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
+    Akina.addCommand({ pattern: 'stlogo ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(lol);
 
@@ -1235,7 +1235,7 @@ else if (Config.WORKTYPE == 'public') {
 }
 if (Config.WORKTYPE == 'private') {
 
-    Asena.addCommand({ pattern: 'stoxic ?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
+    Akina.addCommand({ pattern: 'stoxic ?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -1248,7 +1248,7 @@ if (Config.WORKTYPE == 'private') {
 
 else if (Config.WORKTYPE == 'public') {
 
-    Asena.addCommand({ pattern: 'stoxic ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
+    Akina.addCommand({ pattern: 'stoxic ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -1261,7 +1261,7 @@ else if (Config.WORKTYPE == 'public') {
 }
 if (Config.WORKTYPE == 'private') {
 
-    Asena.addCommand({ pattern: 'suwo ?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
+    Akina.addCommand({ pattern: 'suwo ?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -1274,7 +1274,7 @@ if (Config.WORKTYPE == 'private') {
 
 else if (Config.WORKTYPE == 'public') {
 
-    Asena.addCommand({ pattern: 'suwo ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
+    Akina.addCommand({ pattern: 'suwo ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -1287,7 +1287,7 @@ else if (Config.WORKTYPE == 'public') {
 }
 if (Config.WORKTYPE == 'private') {
 
-    Asena.addCommand({ pattern: 'swatercolour ?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
+    Akina.addCommand({ pattern: 'swatercolour ?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -1300,7 +1300,7 @@ if (Config.WORKTYPE == 'private') {
 
 else if (Config.WORKTYPE == 'public') {
 
-    Asena.addCommand({ pattern: 'swatercolour ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
+    Akina.addCommand({ pattern: 'swatercolour ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -1313,7 +1313,7 @@ else if (Config.WORKTYPE == 'public') {
 }
 if (Config.WORKTYPE == 'private') {
 
-    Asena.addCommand({ pattern: 'scoding ?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
+    Akina.addCommand({ pattern: 'scoding ?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -1326,7 +1326,7 @@ if (Config.WORKTYPE == 'private') {
 
 else if (Config.WORKTYPE == 'public') {
 
-    Asena.addCommand({ pattern: 'rcoding ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
+    Akina.addCommand({ pattern: 'rcoding ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -1339,7 +1339,7 @@ else if (Config.WORKTYPE == 'public') {
 }
 if (Config.WORKTYPE == 'private') {
 
-    Asena.addCommand({ pattern: 'swg ?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
+    Akina.addCommand({ pattern: 'swg ?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -1352,7 +1352,7 @@ if (Config.WORKTYPE == 'private') {
 
 else if (Config.WORKTYPE == 'public') {
 
-    Asena.addCommand({ pattern: 'swg ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
+    Akina.addCommand({ pattern: 'swg ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -1365,7 +1365,7 @@ else if (Config.WORKTYPE == 'public') {
 }
 if (Config.WORKTYPE == 'private') {
 
-    Asena.addCommand({ pattern: 'swolf ?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
+    Akina.addCommand({ pattern: 'swolf ?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -1378,7 +1378,7 @@ if (Config.WORKTYPE == 'private') {
 
 else if (Config.WORKTYPE == 'public') {
 
-    Asena.addCommand({ pattern: 'swolf ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
+    Akina.addCommand({ pattern: 'swolf ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -1391,7 +1391,7 @@ else if (Config.WORKTYPE == 'public') {
 }
 if (Config.WORKTYPE == 'private') {
 
-    Asena.addCommand({ pattern: 'swood ?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
+    Akina.addCommand({ pattern: 'swood ?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -1404,7 +1404,7 @@ if (Config.WORKTYPE == 'private') {
 
 else if (Config.WORKTYPE == 'public') {
 
-    Asena.addCommand({ pattern: 'swood ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
+    Akina.addCommand({ pattern: 'swood ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
