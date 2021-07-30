@@ -35,7 +35,7 @@ if (Config.WORKTYPE == 'private') {
         await message.sendMessage(
             Buffer.from(IMGWADATA.data),
             MessageType.image, 
-            { mimetype: Mimetype.jpg, caption: 'Made by Akina'}
+            { mimetype: Mimetype.jpg, caption: 'Made by WhatsAsena'}
         )
     }));
     Asena.addCommand({pattern: 'colorai$', fromMe: true, deleteCommand: false, dontAddCommandList: true}, (async (message, match) => {    
