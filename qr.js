@@ -19,7 +19,7 @@ async function whatsAsena () {
     conn.regenerateQRIntervalMs = 50000;
     
     conn.on('connecting', async () => {
-        console.log(`${chalk.green.bold('Whats')}${chalk.blue.bold('AKINA')}
+        console.log(`${chalk.green.bold('New')}${chalk.blue.bold('Akna')}
 ${chalk.white.italic('Akina Sting session')}
 
 ${chalk.blue.italic('ℹ️  Whatsapp වෙත සම්බන්ධ වෙමින්... කරුණාකර රැඳී සිටින්න.')}`);
