@@ -8,7 +8,7 @@
     "success_url": "https://t.me/AsenaSupport",
     "stack": "container",
     "env": {
-        "ASENA_SESSION": {
+        "AKINA_SESSION": {
             "description": "Qr කේතය scan කළ පසුව ලැබෙන කේතයන්.",
             "required": true
         },
