@@ -118,6 +118,11 @@
             "required": false,
             "value": "\n ```I Am Alive !!!```\n\n```Type``` *.help* ```for commands```"
         },
+        "ALIVE_LOGO": {
+            "description": "Customizable Alive Logo! Use => https://i.ibb.co/hdb4VFH/IMG-20210516-WA0008.jpg, to change back.",
+            "required": true,
+            "value": "https://telegra.ph/file/358005609b067d6744104.jpg"
+        },
         "LOGO_CP": {
             "description": "logo name",
             "required": false,
