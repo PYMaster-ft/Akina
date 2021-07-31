@@ -8,7 +8,7 @@
     "success_url": "https://t.me/AsenaSupport",
     "stack": "container",
     "env": {
-        "AKINA_SESSION": {
+        "ASENA_SESSION": {
             "description": "Qr කේතය scan කළ පසුව ලැබෙන කේතයන්.",
             "required": true
         },
@@ -113,15 +113,16 @@
             "description": "මෙහිදි ඔබ remove.bg යන website එකට පිවිස signup වී, API key එකක් ලබාගන්න. එම API key එක මෙම හිස්තැනේ දමන්න.",
             "required": false
         },
-        "ALIVE_LOGO": {
-            "description": "Customizable Alive Logo! Use => https://i.ibb.co/hdb4VFH/IMG-20210516-WA0008.jpg, to change back.",
-            "required": true,
-            "value": "https://telegra.ph/file/358005609b067d6744104.jpg"
-        },
         "ALIVE_MESSAGE": {
             "description": "Bot online ද නැද්ද යන්න පරීක්ෂා කරන විට ලැබෙන මැසේජ් එක. මෙය වෙනස් කිරිමට අත්‍යාවශ්‍යම නොවේ.",
             "required": false,
-            "value": "default"
+            "value": "\n ```I Am Alive !!!```\n\n```Type``` *.help* ```for commands```"
+        },
+        "LOGO_CP": {
+            "description": "logo name",
+            "required": false,
+            "value":"hi"
+            
         },
         "BAN_MESSAGE": {
             "description": "යම් කෙනෙකු ඔබ .ban ලෙස කොමාන්ඩ් කර remove කලවිට ලැබෙන message එක. ඔබට මෙම පණිවිඩය වෙනස් කිරීමට අවශ්‍ය නැතිනම් default ටයිප් කරන්න.",

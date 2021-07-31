@@ -6,6 +6,12 @@ you may not use this file except in compliance with the License.
 WhatsAsena - Yusuf Usta
 */
 
+/* Copyright (C) 2020 Yusuf Usta.
+Licensed under the  GPL-3.0 License;
+you may not use this file except in compliance with the License.
+WhatsAsena - Yusuf Usta
+*/
+
 const chalk = require('chalk');
 const {WAConnection, MessageOptions, MessageType} = require('@adiwajshing/baileys');
 const {StringSession} = require('./whatsasena/');
@@ -21,7 +27,6 @@ async function whatsAsena () {
     conn.on('connecting', async () => {
         console.log(`${chalk.green.bold('New')}${chalk.blue.bold('Akina')}
 ${chalk.white.italic('Akina Sting session')}
-
 ${chalk.blue.italic('ℹ️  Whatsapp වෙත සම්බන්ධ වෙමින්... කරුණාකර රැඳී සිටින්න.')}`);
     });
     
