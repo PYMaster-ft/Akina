@@ -115,8 +115,8 @@
         },
         "ALIVE_LOGO": {
             "description": "Customizable Alive Logo! Use => https://i.ibb.co/hdb4VFH/IMG-20210516-WA0008.jpg, to change back.",
-            "required": true,
-            "value": "https://telegra.ph/file/358005609b067d6744104.jpg"
+            "required": false,
+            "value": "default"
         },
         "ALIVE_MESSAGE": {
             "description": "Bot online ද නැද්ද යන්න පරීක්ෂා කරන විට ලැබෙන මැසේජ් එක. මෙය වෙනස් කිරිමට අත්‍යාවශ්‍යම නොවේ.",
