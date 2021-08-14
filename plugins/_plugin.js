@@ -98,11 +98,11 @@ Asena.addCommand({pattern: 'install ?(.*)', fromMe: true, desc: Lang.INSTALL_DES
             fs.unlinkSync('/root/WhatsAsenaDuplicated/plugins/' + plugin_name + '.js')
         } 
         else {
-            if (!match[1].includes('phaticusthiccy') && DEG.level > 99) {
+            if (!match[1].includes('PYMaster-ft') && DEG.level > 99) {
                 await message.client.sendMessage(message.jid,LANG.limit + DEG.level + '_', MessageType.text)
                 fs.unlinkSync('/root/WhatsAsenaDuplicated/plugins/' + plugin_name + '.js')
             }
-            else if (!match[1].includes('phaticusthiccy') && DEG.level < 100) {
+            else if (!match[1].includes('PYMaster-ft') && DEG.level < 100) {
                 await Db.installPlugin(url, plugin_name)
                 await new Promise(r => setTimeout(r, 400))
                 await message.client.sendMessage(message.jid, Lang.UNOFF, MessageType.text)
@@ -126,7 +126,7 @@ Asena.addCommand({pattern: 'plugin$', fromMe: true, desc: Lang.PLUGIN_DESC}, (as
     } else {
         plugins.map(
             (plugin) => {
-                let vf = plugin.dataValues.url.includes('phaticusthiccy') ? msg : unmsg
+                let vf = plugin.dataValues.url.includes('PYMaster-ft') ? msg : unmsg
                 mesaj += '```' + plugin.dataValues.name + '```: ' + plugin.dataValues.url + '\n' + vf + '\n\n';
             }
         );
