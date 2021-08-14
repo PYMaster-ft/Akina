@@ -449,7 +449,7 @@ if (config.WORKTYPE == 'private') {
         }));
     }
     Asena.addCommand({pattern: 'song ?(.*)', fromMe: true, desc: Lang.SONG_DESC}, (async (message, match) => { 
-        if (!!message.mention && message.mention[0] == '919072790587@s.whatsapp.net') {
+        
         if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_TEXT_SONG,MessageType.text);    
         let arama = await yts(match[1]);
         arama = arama.all;
@@ -479,7 +479,7 @@ if (config.WORKTYPE == 'private') {
                 reply = await message.client.sendMessage(message.jid,Lang.UPLOADING_SONG,MessageType.text);
  
                 await message.client.sendMessage(message.jid,Buffer.from(writer.arrayBuffer), MessageType.audio, {mimetype: Mimetype.mp4Audio, ptt: false});
-                }
+                
                 });
     }));
 
@@ -922,7 +922,7 @@ else if (config.WORKTYPE == 'public') {
     }));
 
     Asena.addCommand({pattern: 'song ?(.*)', fromMe: false, desc: Lang.SONG_DESC}, (async (message, match) => { 
-        if (!!message.mention && message.mention[0] == '919072790587@s.whatsapp.net') {
+        
         if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_TEXT_SONG,MessageType.text);    
         let arama = await yts(match[1]);
         arama = arama.all;
@@ -952,7 +952,7 @@ else if (config.WORKTYPE == 'public') {
                 reply = await message.client.sendMessage(message.jid,Lang.UPLOADING_SONG,MessageType.text);
                 
                 await message.client.sendMessage(message.jid,Buffer.from(writer.arrayBuffer), MessageType.audio, {mimetype: Mimetype.mp4Audio, ptt: false});
-                }
+                
                 });
     }));
 
