@@ -1,7 +1,7 @@
 # Akina
 #Akina
 <div align="center">
-  <img border-radius: 16px src="https://telegra.ph/file/0860909d858d38bc09be3.jpg" width="100" height="100"/>
+  <img border-radius: 16px src="https://telegra.ph/file/23fdfc1f84ca6fe23e178.jpg" width="100" height="100"/>
   <p align="center">
 <a href="#"><img title="Akina" src="https://img.shields.io/badge/Akina-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
 </p>
