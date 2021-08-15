@@ -109,10 +109,10 @@ The user is responsible.
 
 <div align="center">
   <img src="https://telegra.ph/file/23fdfc1f84ca6fe23e178.jpg" width="200" height="200">
-  <h1>🐺 Whatsapp Akin 🪄🔥</h1>
+  <h1>🐺 Akina 🌹</h1>
 </div>
 <p align="center">
-    WhatsAsena project - Makes it easy and fun to use Whatsapp. Also first userbot for Whatsapp.
+    Akina project - Makes it easy and fun to use Whatsapp. Also first userbot for Whatsapp.
     <br>
         <a href="https://www.youtube.com/channel/UC-IEBaaEv7zb-XqOsdcF4Pg">Youtube Channel</a> |
         <a href="https://t.me/AsenaSupport">Telegram Group</a> |
