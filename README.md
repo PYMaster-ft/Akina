@@ -108,13 +108,13 @@ The user is responsible.
 ```
 
 <div align="center">
-  <img src="https://i.hizliresim.com/mm1NBs.jpg" width="200" height="200">
-  <h1>🐺 WhatsAsena Duplicated</h1>
+  <img src="https://telegra.ph/file/23fdfc1f84ca6fe23e178.jpg" width="200" height="200">
+  <h1>🐺 Whatsapp Akin 🪄🔥</h1>
 </div>
 <p align="center">
     WhatsAsena project - Makes it easy and fun to use Whatsapp. Also first userbot for Whatsapp.
     <br>
-        <a href="https://t.me/WHATSASENA">Telegram Channel</a> |
+        <a href="https://www.youtube.com/channel/UC-IEBaaEv7zb-XqOsdcF4Pg">Youtube Channel</a> |
         <a href="https://t.me/AsenaSupport">Telegram Group</a> |
         <a href="https://t.me/asenaremaster">New Support Group</a> |
         <a href="https://t.me/unofficialplugin">New Plugin Channel</a> |
@@ -140,9 +140,9 @@ The user is responsible.
 
 ### Simple Method
 
-[![Run on Repl.it](https://repl.it/badge/github/phaticusthiccy/WhatsAsenaDuplicated)](https://repl.it/@phaticusthiccy/WhatsAsena-QR)
+[![Run on Repl.it](https://repl.it/badge/github/PYMaster-ft/Akina)](https://replit.com/@cham2003/Akina-QR-code-whatsapp?v=1)
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/phaticusthiccy/WhatsAsenaDuplicated)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/PYMaster-ft/Akina)
 
 ### The Hard Method
 ```js
