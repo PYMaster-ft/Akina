@@ -1,30 +1,22 @@
-/* Codded by @afnanplk-farhandqz
-Telegram: t.me/phaticusthiccy
-Instagram: www.instagram.com/kyrie.baran
+/* Codded by @afnanplk - farhandqz
+non copyright 
 */
 
 const Asena = require('../events');
 const {WAConnection, MessageOptions, MessageType, Mimetype, Presence} = require('@adiwajshing/baileys');
 const fs = require('fs');
 const axios = require('axios');
+const Config = require('../config');
 
-Asena.addCommand({pattern: 'logopk', fromMe: false, desc: 'more logo commands'}, (async (message, match) => {
+if (Config.WORKTYPE == 'private') {
+
+Asena.addCommand({pattern: 'moretxt', fromMe: true, desc: 'more txtit commands'}, (async (message, match) => {
   
-  await message.sendMessage('📱command : *.break*\n💎desc : change your text to wall breaking image.\n\n📱command : *.pubg*\n💎desc : change your text to pung image.\n\n📱command : *.phub*\n💎desc : change your text into pornhub logo.\n🏷️example : .phub BOT;X.\n\n📱command : *.blood*\n💎desc : change your text frozen blood on a glass\n\n📱command : *.1917*\n💎desc : change your text to a 1917 model image\n\n📱command : *.avengers*\n💎desc : change your text to avangers logo\n🏷️example : .avengers its;BOT X.\n\n📱command : *.boxed*\n💎desc : change your text to 3d boxed design\n\n📱command : *.window*\n💎desc : write your text on a foggy window \n\n📱command : .skywal\n💎desc : random sky wallpaper with given text\n\n📱command : *.holo*\n💎desc : change your text to holo design\n\n📱command : *.drop*\n💎desc : change your text into rain water drop.n\n📱command : *.flame*\n💎desc : text with fire effect.\n\n📱command : *.vtext*\n💎desc : text to video.\n\n📱command : *.ptext*\n💎desc : text to video.\n\n📱command : *.colortext*\n💎desc : text to colorfull video\n\n📱command : *.cloud*\n💎desc : text on cloud\n\n📱command : *.2ninja*\n💎desc : random ninja logo with given name.');
+  await message.sendMessage('\n\n\n📱command : .break\n💎desc : change your text to wall breaking image.\n\n📱command : .phub\n💎desc : change your text into pornhub logo.\n🏷️example : .phuh BOT;X.\n\n📱command : .blood\n💎desc : change your text frozen blood on a glass\n\n📱command : .1917\n💎desc : change your text to a 1917 model image\n\n📱command : .maskman\n💎desc : change your text to mask man bg\n🏷️example : .avengers its;BOT X.\n\n📱command : .boxed\n💎desc : change your text to 3d boxed design\n\n📱command : .window\n💎desc : write your text on a foggy window \n\n📱command : .skywal\n💎desc : random sky wallpaper with given text\n\n📱command : .holo\n💎desc : change your text to holo design\n\n📱command : .drop\n💎desc : change your text into rain water drop.n\n📱command : .flame\n💎desc : text with fire effect.\n\n📱command : .vtext\n💎desc : text to video.\n\n📱command : .ptext\n💎desc : text to video.\n\n📱command : .colortext\n💎desc : text to colorfull video\n\n📱command : .cloud\n💎desc : text on cloud\n\n📱command : .2ninja\n💎desc : random ninja logo with given name.');
   
 }));
 
 Asena.addCommand({pattern: 'break ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
-
-    if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_WORD);
-
-    var webimage = await axios.get(`https://api.zeks.xyz/api/breakwall?apikey=x2RjJIcchXaUJEO8gurQU0Kdrun&text=${match[1]}`, { responseType: 'arraybuffer' })
-
-  await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg })
-
-}));
-  
- Asena.addCommand({pattern: 'break ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_WORD);
 
