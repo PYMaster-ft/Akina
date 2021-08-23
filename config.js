@@ -26,6 +26,8 @@ module.exports = {
     LANG: process.env.LANGUAGE === undefined ? 'TR' : process.env.LANGUAGE.toUpperCase(),
     ALIVEMSG: process.env.ALIVE_MESSAGE === undefined ? 'default' : process.env.ALIVE_MESSAGE,
     ALIVE_LOGO: process.env.ALIVE_LOGO === undefined ? 'https://telegra.ph/file/358005609b067d6744104.jpg' : process.env.ALIVE_LOGO,
+    GMS: process.env.GM_MESSAGE === undefined ? 'default' : process.env.GM_MESSAGE,
+    GML: process.env.GM_LOGO === undefined ? 'https://telegra.ph/file/789fd1e8aea57aea4cea3.jpg' : process.env.GM_LOGO,
     KICKMEMSG: process.env.KICKME_MESSAGE === undefined ? 'default' : process.env.KICKME_MESSAGE,
     BLOCKCHAT: process.env.BLOCK_CHAT === undefined ? false : process.env.BLOCK_CHAT,
     ADDMSG: process.env.ADD_MESSAGE === undefined ? 'default' : process.env.ADD_MESSAGE,
