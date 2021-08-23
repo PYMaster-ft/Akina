@@ -138,6 +138,16 @@
             "required": false,
             "value": "default"
         },
+        "GM_LOGO": {
+            "description": "Customizable good morning Logo! Use => https://telegra.ph, to change back.",
+            "required": true,
+            "value": "https://telegra.ph/file/789fd1e8aea57aea4cea3.jpg"
+        },
+        "GM_MESSAGE": {
+            "description": "ඔබට .gm කියල ගැහුවාම එන්න ඕනේ good morning message එක type කරන්න.",
+            "required": false,
+            "value": "default"
+        },
         "KICKME_MESSAGE": {
             "description": "ඔබට මෙම පණිවිඩය වෙනස් කිරීමට අවශ්‍ය නැතිනම් default ටයිප් කරන්න.",
             "required": false,
