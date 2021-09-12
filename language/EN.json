@@ -186,6 +186,7 @@
             "NEED_TEXT_SONG": "*Please write a song!*\n*Example:* ```.song eminem - rap god```",
             "NO_RESULT": "*I couldn't find anything :(*",
             "DOWNLOADING_SONG": "*Akina👻 Searching⏳ your song🎶...*",
+            "DEVICE": "It shows the details of requested devices",
             "UPLOADING_SONG": "*Akina 👻 Uploading your song  📲*",
             "VIDEO_DESC": "Downloads video from YouTube.",
             "NEED_VIDEO": "*Please write a video link!*\n*Example:* ```.video https://www.youtube.com/watch?v=nAFlVm5qeBc```",
