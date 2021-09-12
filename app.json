@@ -56,6 +56,16 @@
             "required": true,
             "value": "false"
         },
+         "SONGD": {
+            "description": "Customizable song DOWNLOADING message instead of 'Dowloading your song'",
+            "required": true,
+            "value": "*Downloading your song*"
+        },
+        "SONGU": {
+            "description": "Customizable song UPLOADING message instead of 'Uploading your song'",
+            "required": true,
+            "value": "*Feel the song*"
+        },
         "NO_LOG": {
             "description": "ඔබට කිසියම් දෝෂ log සටහනක් දැකීමට අවශ්‍ය නැතිනම් true ලෙස සකසන්න. ඔබට දෝෂ ලොගය දැකීමට අවශ්‍ය නැතිනම් false ලෙස සකසන්න.",
             "required": true,
