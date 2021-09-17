@@ -476,7 +476,7 @@ if (config.WORKTYPE == 'private') {
                 
                 reply = await message.client.sendMessage(message.jid,config.SONGD,MessageType.text);
  
-                await message.client.sendMessage(message.jid,Buffer.from(writer.arrayBuffer), MessageType.audio, {mimetype: Mimetype.mp3Audio, ptt: false});
+                await message.client.sendMessage(message.jid,Buffer.from(writer.arrayBuffer), MessageType.audio, {mimetype: Mimetype.mp4Audio, ptt: false});
                 
                 });
     }));
